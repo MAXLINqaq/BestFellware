@@ -1,0 +1,2 @@
+E:\test\test\obj\Debug\Fungus.FungusLuaEditor.csproj.AssemblyReference.cache
+E:\test\test\obj\Debug\Fungus.FungusLuaEditor.csproj.CoreCompileInputs.cache

@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 using Fungus;
+using UnityEngine.Experimental.Rendering.Universal;
 
 
 
@@ -37,6 +38,7 @@ public class MorsecodeController : MonoBehaviour
     public string AnswerStr;
     public string MorseStr;
 
+
     [Serializable]
     public struct Sentence
     {
@@ -52,8 +54,8 @@ public class MorsecodeController : MonoBehaviour
     public Sentence[] sentences;
 
 
-        
-        
+
+
 
 
 

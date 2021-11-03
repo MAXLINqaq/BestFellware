@@ -91,8 +91,9 @@
     <Compile Include="Assets\QuickSave\Core\Converters\Matrix4x4Converter.cs" />
     <Compile Include="Assets\Scripts\AudioVisualization.cs" />
     <Compile Include="Assets\Scripts\PaoTaiController.cs" />
-    <Compile Include="Assets\QuickSave\CompressionMode.cs" />
     <Compile Include="Assets\Scripts\CuiDengController.cs" />
+    <Compile Include="Assets\QuickSave\CompressionMode.cs" />
+    <Compile Include="Assets\Scripts\AnswerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\QuickSave\Plugins\jillejr.newtonsoft.json-for-unity@12.0.301\Plugins\Newtonsoft.Json Portable\Newtonsoft.Json.xml" />

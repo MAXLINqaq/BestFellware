@@ -7,6 +7,8 @@ public class PhoneController : MonoBehaviour
 {
     public GameObject FaSong;
     public  int RingingCount =0 ;
+    public GameObject LaiDian;
+    public AudioSource As;
 
 
     public float currentTime = 3f;
@@ -18,7 +20,13 @@ public class PhoneController : MonoBehaviour
 
         if (invokeTime - currentTime > 0)
         {
-            FaSong.GetComponent<BulletGenerator>().isRinging=true;  
+            FaSong.GetComponent<BulletGenerator>().isRinging=true;
+            LaiDian.transform.localScale = new Vector3(0.35f,0.35f,1);
+            if ( !As.isPlaying)
+            {
+                As.Play();
+            }
+
         }
         if (RingingCount > 2)
         {
@@ -32,8 +40,16 @@ public class PhoneController : MonoBehaviour
     }
     public void SetInvokeTime()
     {
-        FaSong.GetComponent<BulletGenerator>().isRinging = false;
-        invokeTime = 0;
-        RingingCount++;
+        if (invokeTime - currentTime > 0)
+        { 
+            FaSong.GetComponent<BulletGenerator>().isRinging = false;
+            LaiDian.transform.localScale = new Vector3(0.35f, 0, 1);
+            invokeTime = 0;
+            RingingCount++;
+            if (As.isPlaying)
+            {
+                As.Stop();
+            }
+        }
     }
 }

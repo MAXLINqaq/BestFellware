@@ -136,7 +136,7 @@ public class MorsecodeController : MonoBehaviour
             //TimeText3.text = Convert.ToString(CountDown[3]);
             //TimeText4.text = Convert.ToString(CountDown[4]);
 
-            if (AnswerStr.Length == sentences[i].Morse.Length)
+            if (AnswerStr.Length >= sentences[i].Morse.Length)
             {
                 if (AnswerStr == sentences[i].Morse)
                 {

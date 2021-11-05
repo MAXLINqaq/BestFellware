@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LevelOne.unity
     guid: da42aa41965f272479f32506f6e0334b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/otherworld.unity
     guid: 58e2342e14f771d458e4d86858b1b0aa
   - enabled: 1

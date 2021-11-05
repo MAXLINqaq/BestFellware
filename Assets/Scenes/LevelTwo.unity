@@ -229,7 +229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 682.8, y: 323.1}
+  m_AnchoredPosition: {x: 763.30005, y: 412}
   m_SizeDelta: {x: 202.9422, y: 72.9422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143240467
@@ -744,7 +744,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -1339, y: 851}
+  m_AnchoredPosition: {x: -1234, y: 851}
   m_SizeDelta: {x: 1147.729, y: 349}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &550089582
@@ -878,12 +878,47 @@ PrefabInstance:
     - target: {fileID: 138025756899621129, guid: 7afc353a627f5584d8f7106cdeacf0f5,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 138025756899621130, guid: 7afc353a627f5584d8f7106cdeacf0f5,
+        type: 3}
+      propertyPath: m_FlipY
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 138025756899621130, guid: 7afc353a627f5584d8f7106cdeacf0f5,
         type: 3}
       propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 138025756899621130, guid: 7afc353a627f5584d8f7106cdeacf0f5,
+        type: 3}
+      propertyPath: m_Color.b
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 138025756899621130, guid: 7afc353a627f5584d8f7106cdeacf0f5,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 138025756899621130, guid: 7afc353a627f5584d8f7106cdeacf0f5,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 138025756899621130, guid: 7afc353a627f5584d8f7106cdeacf0f5,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 138025756899621130, guid: 7afc353a627f5584d8f7106cdeacf0f5,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 138025756899621130, guid: 7afc353a627f5584d8f7106cdeacf0f5,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1582021233
       objectReference: {fileID: 0}
     - target: {fileID: 138025756899621131, guid: 7afc353a627f5584d8f7106cdeacf0f5,
         type: 3}
@@ -1232,7 +1267,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1232796930}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 092d28907ee8e6540b085d57f1e78b29, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -1257,7 +1292,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 102.75751
     y: 57.93309
-    width: 66.17021
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1282,11 +1317,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 347.77686, y: 27.193619}
+  scrollPos: {x: 651.1372, y: 262.33426}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.94000006
+  zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1294,9 +1329,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 652257440}
-  selectedCommands:
-  - {fileID: 652257438}
+  - {fileID: 652257498}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1501,7 +1535,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 102.92605
     y: 98.5567
-    width: 66.17021
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2025,7 +2059,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 188.33067
     y: 57.405426
-    width: 66.17021
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2224,7 +2258,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.15045
     y: 141.54466
-    width: 66.17021
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2416,7 +2450,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 186.41978
     y: 97.88852
-    width: 66.17021
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2529,7 +2563,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 103.94742
     y: 186.41684
-    width: 66.17021
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2612,7 +2646,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 188.53111
     y: 140.09866
-    width: 66.17021
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2779,7 +2813,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 190.00494
     y: 187.78288
-    width: 66.17021
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2972,7 +3006,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 276.18625
     y: 59.83561
-    width: 66.17021
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3115,7 +3149,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 281.34427
     y: 105.51964
-    width: 66.17021
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3672,7 +3706,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &652257519
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3854,7 +3888,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 748, y: -237}
+  m_AnchoredPosition: {x: 917, y: -276}
   m_SizeDelta: {x: 156.883, y: 139.8753}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &985236418
@@ -4726,7 +4760,7 @@ MonoBehaviour:
     time: 75
   - words: "\u767E\u4F59\u4EBA"
     target: D G YB
-    Morse: 100110011111000
+    Morse: 10011010111000
     time: 60
   - words: "\u51FB\u9000\u654C\u519B"
     target: JT D
@@ -5118,7 +5152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 574.6, y: 323.1}
+  m_AnchoredPosition: {x: 655.1001, y: 411.99997}
   m_SizeDelta: {x: 202.9422, y: 72.9422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1583863834
@@ -5197,7 +5231,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 532.5, y: 323.1}
+  m_AnchoredPosition: {x: 613, y: 411.99997}
   m_SizeDelta: {x: 202.9422, y: 72.9422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1637457230
@@ -5826,7 +5860,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 744, y: 123}
+  m_AnchoredPosition: {x: 954, y: 123}
   m_SizeDelta: {x: 383.1495, y: 57.8937}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2050512450
@@ -5905,7 +5939,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 643.5, y: 323.1}
+  m_AnchoredPosition: {x: 724.0001, y: 411.99997}
   m_SizeDelta: {x: 202.9422, y: 72.9422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2142463640

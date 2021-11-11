@@ -8,12 +8,10 @@ public class BulletGenerator : MonoBehaviour
     public GameObject Bullet;
     public bool isRinging = false;
 
+    public bool shoot = false;
     private float invokeTime;
 
-    private void Start()
-    {
-            Instantiate(Bullet, transform.position - new Vector3(0, 0, transform.position.z), transform.rotation);
-    }
+
 
     void Update()
     {
@@ -21,12 +19,21 @@ public class BulletGenerator : MonoBehaviour
 
         if (invokeTime - currentTime > 0)
         {
-            if (isRinging == false)
+            if (shoot == true)
             {
-                Instantiate(Bullet, transform.position - new Vector3(0, 0, transform.position.z), transform.rotation);
+                if (isRinging == false)
+                {
+                    Instantiate(Bullet, transform.position - new Vector3(0, 0, transform.position.z), transform.rotation);
+                }
+                invokeTime = 0;
+                shoot = false;
             }
-            invokeTime = 0;
+            
         }
 
+    }
+    public void Generate()
+    {
+        shoot = true;
     }
 }

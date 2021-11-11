@@ -47,12 +47,17 @@ public class MorsecodeController : MonoBehaviour
         public string Morse;
         public float time;
     };
-
-    //序列化，才能显示在层次面板上
-
-
     public Sentence[] sentences;
 
+    [Serializable]
+    public struct SentenceCome
+    {
+        public string words;
+        public string target;
+        public string Morse;
+        public float time;
+    };
+    public Sentence[] sentencesCome;
 
 
 

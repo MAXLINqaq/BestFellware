@@ -5,24 +5,27 @@ using UnityEngine;
 public class PaoTaiController : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Rigidbody2D rb;
     public Joystick joystick;
     public float speed;
 
     void Update()
     {
-        if (transform.position.x >= -6.78 || transform.position.x <= 6.64)
+        if (joystick.Horizontal != 0)
         {
-            rb.velocity = new Vector2(joystick.Horizontal * speed, 0);
+            if (transform.position.x < 6.5 && transform.position.x > -6.5)
+            {
+                transform.position = transform.position + new Vector3(joystick.Horizontal * speed * Time.deltaTime, 0, 0);
+            }          
+            if (transform.position.x < -6.5 && joystick.Horizontal > 0)
+            {
+                transform.position = transform.position+ new Vector3(joystick.Horizontal * speed * Time.deltaTime, 0, 0);
+            }
+            if (transform.position.x > 6.5 && joystick.Horizontal < 0)
+            {
+                transform.position = transform.position+ new Vector3(joystick.Horizontal * speed * Time.deltaTime, 0, 0);
+            }
         }
-        if (transform.position.x < -6.78 && joystick.Horizontal >0)
-        {
-            rb.velocity = new Vector2(joystick.Horizontal * speed, 0);
-        }
-        if (transform.position.x > 6.64 && joystick.Horizontal < 0)
-        {
-            rb.velocity = new Vector2(joystick.Horizontal * speed, 0);
-        }
+        
 
     }
 }

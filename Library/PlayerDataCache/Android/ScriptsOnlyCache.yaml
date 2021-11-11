@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - Fungus.Block
     - Fungus.Character
     - Fungus.Clickable2D
+    - Fungus.CommandCopyBuffer
     - Fungus.CustomTag
     - Fungus.DialogInput
     - Fungus.Draggable2D
@@ -46,6 +47,8 @@ ScriptsOnlyBuild:
     - Fungus.Writer
     - Fungus.WriterAudio
     FungusEditor.dll:
+    - Fungus.EditorUtils.BlockEditor
+    - Fungus.EditorUtils.BlockInspector
     - Fungus.EditorUtils.FlowchartWindow
     - Fungus.EditorUtils.FungusEditorResources
     Unity.2D.Animation.Editor.dll:
@@ -661,7 +664,7 @@ ScriptsOnlyBuild:
     className: SelectOnEnable
   - hash:
       serializedVersion: 2
-      Hash: 256aa1977bfc74387190db565a5d2fe8
+      Hash: 3b409ce3b2fc5c5a477530d6e5601f75
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BulletGenerator
@@ -2017,7 +2020,7 @@ ScriptsOnlyBuild:
     className: CinemachineBlendListCamera
   - hash:
       serializedVersion: 2
-      Hash: 81e6f297ff0d56fa038324aa7b157ba6
+      Hash: 2e0a634940aa9ec6b477ad0a172770f8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MorsecodeController
@@ -3379,7 +3382,7 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
-      Hash: c706e65ba893456c7f0cd5baa67caae4
+      Hash: 78d8ddb7ab84fb110d35be751547b5d1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PaoTaiController

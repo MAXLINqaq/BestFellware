@@ -125,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   PhoneController: {fileID: 0}
+  moveFace: 1
 --- !u!50 &7865895706363718494
 Rigidbody2D:
   serializedVersion: 4

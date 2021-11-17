@@ -19,6 +19,7 @@ public class MorsecodeController : MonoBehaviour
     private bool isDown = false;
     public GameObject Up;
     public  int missCount;
+    public GameObject Blood;
 
     private int i = 0;
     private int j = 0;
@@ -179,6 +180,7 @@ public class MorsecodeController : MonoBehaviour
                     {
                         isCoding = true ;
                     }
+                    missCount = 0;
                 }
                 else
                 {
@@ -239,10 +241,16 @@ public class MorsecodeController : MonoBehaviour
     }
     private void Miss()
     {
+        if (missCount == 0 && Pulse.isPlaying)
+        {
+            Pulse.Stop();
+            Blood.transform.localScale = new Vector3(1.9f, 0, 1f);
+        }
 
         if (missCount == 1 && !Pulse .isPlaying)
         {
             Pulse.Play();
+            Blood.transform.localScale = new Vector3(1.9f, 2f, 1f);
         }
         if (missCount == 2 && Pulse.isPlaying)
         {
@@ -251,7 +259,7 @@ public class MorsecodeController : MonoBehaviour
             Pulse.Stop();
             Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
             flowchart.ExecuteBlock("Fail");
-
+            missCount = 0;
             if (storyCount < 2)
             {
                 storyCount = 0;

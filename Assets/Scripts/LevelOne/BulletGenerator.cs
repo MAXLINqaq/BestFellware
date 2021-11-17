@@ -7,6 +7,7 @@ public class BulletGenerator : MonoBehaviour
     public float currentTime = 1f;
     public GameObject Bullet;
     public bool isRinging = false;
+    public AudioSource As;
 
     public bool shoot = false;
     private float invokeTime;
@@ -24,6 +25,10 @@ public class BulletGenerator : MonoBehaviour
                 if (isRinging == false)
                 {
                     Instantiate(Bullet, transform.position - new Vector3(0, 0, transform.position.z), transform.rotation);
+                    if (!As.isPlaying)
+                    {
+                        As.Play();
+                    }
                 }
                 invokeTime = 0;
                 shoot = false;

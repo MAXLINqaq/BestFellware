@@ -12,11 +12,11 @@ public class PaoTaiController : MonoBehaviour
     {
         if (joystick.Horizontal != 0)
         {
-            if (transform.position.x < 6.5 && transform.position.x > -6.5)
+            if (transform.position.x < 6.5 && transform.position.x > -4)
             {
                 transform.position = transform.position + new Vector3(joystick.Horizontal * speed * Time.deltaTime, 0, 0);
             }          
-            if (transform.position.x < -6.5 && joystick.Horizontal > 0)
+            if (transform.position.x < -4 && joystick.Horizontal > 0)
             {
                 transform.position = transform.position+ new Vector3(joystick.Horizontal * speed * Time.deltaTime, 0, 0);
             }

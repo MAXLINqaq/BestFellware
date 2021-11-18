@@ -8,9 +8,13 @@ public class EnemyController : MonoBehaviour
     public int moveFace = 1;
     public float leftWall = -5;
     public float rightWall = 8;
+    public AudioSource As;
 
     private float invokeTime;
     public float currentTime = 0.5f;
+
+    private float invokeTime1;
+    
     // Start is called before the first frame update
 
 
@@ -24,7 +28,12 @@ public class EnemyController : MonoBehaviour
             Move();
             invokeTime = 0;
         }
-      
+        if (invokeTime1 - 10f > 0)
+        {
+            speed += 5;
+            invokeTime1 = 0;
+        }
+
     }
     private void Move()
     {
@@ -35,6 +44,7 @@ public class EnemyController : MonoBehaviour
             {
                 moveFace = 0;
                 transform.position = transform.position - new Vector3(0, 0.6f, 0);
+                PlayAs();
             }
         }
         else
@@ -44,7 +54,15 @@ public class EnemyController : MonoBehaviour
             {
                 moveFace = 1;
                 transform.position = transform.position - new Vector3(0, 0.6f, 0);
+                PlayAs();
             }
+        }
+    }
+    private void PlayAs()
+    {
+        if (!As.isPlaying)
+        {
+            As.Play();
         }
     }
 }

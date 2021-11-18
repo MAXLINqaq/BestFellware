@@ -8,8 +8,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
-    <ProjectGuid>{E5C00A68-E6DB-FEA3-938C-F34D364EA738}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{680AC0E5-DBE6-A3FE-938C-F34D364EA738}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,6 +55,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AnswerController.cs" />
+    <Compile Include="Assets\Scripts\LevelTwo\VibrateController.cs" />
     <Compile Include="Assets\Scripts\LevelOne\BulletGenerator.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
@@ -82,9 +84,11 @@
     <Compile Include="Assets\QuickSave\QuickSaveGlobalSettings.cs" />
     <Compile Include="Assets\QuickSave\QuickSaveException.cs" />
     <Compile Include="Assets\QuickSave\Core\Converters\QuaternionConverter.cs" />
+    <Compile Include="Assets\Scripts\LevelOne\FortController.cs" />
     <Compile Include="Assets\Scripts\LevelOne\PlayerController.cs" />
     <Compile Include="Assets\QuickSave\Core\Storage\FileAccess.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\Scripts\LevelTwo\AudioController.cs" />
     <Compile Include="Assets\QuickSave\Example\ExampleSceneManagerController.cs" />
     <Compile Include="Assets\Scripts\LevelOne\BulletController.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
@@ -93,11 +97,8 @@
     <Compile Include="Assets\Scripts\AudioVisualization.cs" />
     <Compile Include="Assets\Scripts\LevelOne\PaoTaiController.cs" />
     <Compile Include="Assets\Scripts\LevelTwo\CuiDengController.cs" />
-    <Compile Include="Assets\QuickSave\CompressionMode.cs" />
-    <Compile Include="Assets\Scripts\LevelOne\FortController.cs" />
-    <Compile Include="Assets\Scripts\AudioController.cs" />
-    <Compile Include="Assets\Scripts\LevelTwo\VibrateController.cs" />
     <Compile Include="Assets\Scripts\LevelTwo\TextController.cs" />
+    <Compile Include="Assets\QuickSave\CompressionMode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\QuickSave\Plugins\jillejr.newtonsoft.json-for-unity@12.0.301\Plugins\Newtonsoft.Json Portable\Newtonsoft.Json.xml" />

@@ -21,7 +21,7 @@ public class PhoneController : MonoBehaviour
         if (invokeTime - currentTime > 0)
         {
             FaSong.GetComponent<BulletGenerator>().isRinging=true;
-            LaiDian.transform.localScale = new Vector3(0.8f,0.8f,1);
+            LaiDian.transform.localScale = new Vector3(1.5f,1.5f,1);
             if ( !As.isPlaying)
             {
                 As.Play();
@@ -43,7 +43,7 @@ public class PhoneController : MonoBehaviour
         if (invokeTime - currentTime > 0)
         { 
             FaSong.GetComponent<BulletGenerator>().isRinging = false;
-            LaiDian.transform.localScale = new Vector3(0.8f, 0, 1);
+            LaiDian.transform.localScale = new Vector3(1.5f, 0, 1);
             invokeTime = 0;
             RingingCount++;
             if (As.isPlaying)

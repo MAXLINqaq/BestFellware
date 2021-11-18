@@ -11,7 +11,14 @@ public class FortController : MonoBehaviour
     public string[] Str ;
     public float[]  currentTime ;
     public  float invokTime=0;
+    public Sprite AngerFort;
+    public Sprite EmoFort;
 
+    private SpriteRenderer spriteRenderer;
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
     void Update()
     {
 
@@ -23,6 +30,14 @@ public class FortController : MonoBehaviour
         else
         {
             text.text = Str[hitCount];
+        }
+        if (hitCount == 1)
+        {
+            spriteRenderer.sprite = AngerFort;
+        }
+        if (hitCount == 2)
+        {
+            spriteRenderer.sprite = EmoFort;
         }
         invokTime += Time.deltaTime;
         if (invokTime > currentTime[hitCount])

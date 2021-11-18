@@ -35,6 +35,7 @@ public class MorsecodeController : MonoBehaviour
 
     public Text Sentence1Text;
     public Text TargetText;
+    public Text MorseComeText;
     public Text MorseText;
     public Text TimeText1;
     public Text TimeText2;
@@ -54,20 +55,6 @@ public class MorsecodeController : MonoBehaviour
         public float time;
     };
     public Sentence[] sentences;
-
-    [Serializable]
-    public struct SentenceCome
-    {
-        public string words;
-        public string target;
-        public string Morse;
-        public float time;
-    };
-    public Sentence[] sentencesCome;
-
-
-
-
 
 
     private void Update()
@@ -152,43 +139,89 @@ public class MorsecodeController : MonoBehaviour
                 missCount++;
                 SinvokeTime = 0;
             }
-            Sentence1Text.text = sentences[i].words;
-            TargetText.text = sentences[i].target;
-            MorseText.text = MorseStr;
-
             CountDown = Convert.ToString(sentences[i].time - SinvokeTime);
             TimeText1.text = Convert.ToString(CountDown[0]);
             TimeText2.text = Convert.ToString(CountDown[1]);
             //TimeText3.text = Convert.ToString(CountDown[3]);
             //TimeText4.text = Convert.ToString(CountDown[4]);
-
-            if (AnswerStr.Length >= sentences[i].Morse.Length)
+            int CharConut = 0;
+            if (i == 1 || i == 5 || i == 12)
             {
-                if (AnswerStr == sentences[i].Morse)
+                
+                MorseComeText.text = sentences[i].Morse;
+                if (AnswerStr.Length >= sentences[i].Morse.Length)
                 {
-                    missCount=0;
-                    i++;
-                    SinvokeTime = 0;
-                    AnswerStr = "";
-                    MorseStr = "";
-                    if (storyCount < 10)
+                    if (AnswerStr == sentences[i].Morse)
                     {
-                        isExcute = false;
-                        isCoding = false;
+                        missCount = 0;
+                        i++;
+                        SinvokeTime = 0;
+                        AnswerStr = "";
+                        MorseStr = "";
+                        if (storyCount < 10)
+                        {
+                            isExcute = false;
+                            isCoding = false;
+                        }
+                        else
+                        {
+                            isCoding = true;
+                        }
+                        missCount = 0;
                     }
                     else
                     {
-                        isCoding = true ;
+                        missCount++;
+                        AnswerStr = "";
+                        MorseStr = "";
                     }
-                    missCount = 0;
                 }
-                else
+                //if (AnswerStr.Length >= sentences[i].Morse.Length)
+                //{
+                //    if (AnswerStr + " " == sentences[i].Morse.Substring(0, AnswerStr.Length))
+                //    {
+
+                //        Sentence1Text.text = sentences[i].words.Substring(0, CharConut);
+                //        TargetText.text = sentences[i].target.Substring(0, CharConut);
+                //        CharConut++;
+                //    }
+                //}
+            }
+            else 
+            {
+                Sentence1Text.text = sentences[i].words;
+                TargetText.text = sentences[i].target;
+                MorseText.text = MorseStr;
+
+                if (AnswerStr.Length >= sentences[i].Morse.Length)
                 {
-                    missCount++;
-                    AnswerStr = "";
-                    MorseStr = "";
+                    if (AnswerStr == sentences[i].Morse)
+                    {
+                        missCount = 0;
+                        i++;
+                        SinvokeTime = 0;
+                        AnswerStr = "";
+                        MorseStr = "";
+                        if (storyCount < 10)
+                        {
+                            isExcute = false;
+                            isCoding = false;
+                        }
+                        else
+                        {
+                            isCoding = true;
+                        }
+                        missCount = 0;
+                    }
+                    else
+                    {
+                        missCount++;
+                        AnswerStr = "";
+                        MorseStr = "";
+                    }
                 }
             }
+            
         }
         if (!isCoding)
         {
@@ -201,7 +234,7 @@ public class MorsecodeController : MonoBehaviour
         if (i > 15)
         {
             Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
-            flowchart.ExecuteBlock("D11");
+            flowchart.ExecuteBlock("D14");
         }
     }
     //private void ReplyController()
@@ -260,25 +293,25 @@ public class MorsecodeController : MonoBehaviour
             Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
             flowchart.ExecuteBlock("Fail");
             missCount = 0;
-            if (storyCount < 2)
+            if (storyCount < 4)
             {
                 storyCount = 0;
             }
-            else if (storyCount < 5)
+            else if (storyCount < 7)
             {
-                storyCount = 2;
-            }
-            else if (storyCount < 8)
-            {
-                storyCount = 5;
+                storyCount = 4;
             }
             else if (storyCount < 10)
             {
-                storyCount = 8;
+                storyCount = 7;
+            }
+            else if (storyCount < 12)
+            {
+                storyCount = 10;
             }
             else
             {
-                storyCount = 10;
+                storyCount = 12;
             }
         }
 

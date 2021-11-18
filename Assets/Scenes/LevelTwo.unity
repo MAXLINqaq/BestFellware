@@ -225,11 +225,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 385834954}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 716, y: 410}
+  m_AnchoredPosition: {x: 590.4, y: 410}
   m_SizeDelta: {x: 202.9422, y: 72.9422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143240467
@@ -409,7 +409,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1582021233
   m_SortingLayer: 3
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 373413065db691d489ec6b13c09a202b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -549,6 +549,9 @@ Transform:
   - {fileID: 1536041529}
   - {fileID: 1246479553}
   - {fileID: 445381636}
+  - {fileID: 852916095}
+  - {fileID: 1968767358}
+  - {fileID: 1732830803}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -786,8 +789,8 @@ RectTransform:
   - {fileID: 1637457229}
   - {fileID: 1583863833}
   - {fileID: 2142463639}
-  - {fileID: 784830229}
   - {fileID: 143240466}
+  - {fileID: 784830229}
   - {fileID: 1710161805}
   - {fileID: 210482204}
   - {fileID: 167861684}
@@ -1323,6 +1326,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
         type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 2d75d50deb0879549987449f0d0a9d2c, type: 3}
@@ -1613,32 +1621,19 @@ GameObject:
   - component: {fileID: 652257443}
   - component: {fileID: 652257442}
   - component: {fileID: 652257441}
-  - component: {fileID: 652257447}
-  - component: {fileID: 652257446}
-  - component: {fileID: 652257445}
-  - component: {fileID: 652257444}
-  - component: {fileID: 652257448}
-  - component: {fileID: 652257449}
-  - component: {fileID: 652257438}
   - component: {fileID: 652257466}
   - component: {fileID: 652257465}
   - component: {fileID: 652257464}
   - component: {fileID: 652257463}
   - component: {fileID: 652257451}
-  - component: {fileID: 652257460}
   - component: {fileID: 652257459}
   - component: {fileID: 652257458}
   - component: {fileID: 652257457}
-  - component: {fileID: 652257456}
   - component: {fileID: 652257477}
   - component: {fileID: 652257476}
   - component: {fileID: 652257475}
   - component: {fileID: 652257474}
   - component: {fileID: 652257455}
-  - component: {fileID: 652257454}
-  - component: {fileID: 652257453}
-  - component: {fileID: 652257452}
-  - component: {fileID: 652257450}
   - component: {fileID: 652257473}
   - component: {fileID: 652257472}
   - component: {fileID: 652257471}
@@ -1659,20 +1654,12 @@ GameObject:
   - component: {fileID: 652257492}
   - component: {fileID: 652257491}
   - component: {fileID: 652257490}
-  - component: {fileID: 652257489}
   - component: {fileID: 652257488}
   - component: {fileID: 652257487}
   - component: {fileID: 652257482}
   - component: {fileID: 652257512}
   - component: {fileID: 652257511}
   - component: {fileID: 652257510}
-  - component: {fileID: 652257509}
-  - component: {fileID: 652257508}
-  - component: {fileID: 652257507}
-  - component: {fileID: 652257506}
-  - component: {fileID: 652257505}
-  - component: {fileID: 652257504}
-  - component: {fileID: 652257503}
   - component: {fileID: 652257483}
   - component: {fileID: 652257520}
   - component: {fileID: 652257522}
@@ -1685,12 +1672,10 @@ GameObject:
   - component: {fileID: 652257523}
   - component: {fileID: 652257529}
   - component: {fileID: 652257530}
-  - component: {fileID: 652257536}
   - component: {fileID: 652257537}
   - component: {fileID: 652257535}
   - component: {fileID: 652257534}
   - component: {fileID: 652257533}
-  - component: {fileID: 652257532}
   - component: {fileID: 652257539}
   - component: {fileID: 652257549}
   - component: {fileID: 652257548}
@@ -1704,7 +1689,6 @@ GameObject:
   - component: {fileID: 652257540}
   - component: {fileID: 652257538}
   - component: {fileID: 652257567}
-  - component: {fileID: 652257566}
   - component: {fileID: 652257565}
   - component: {fileID: 652257564}
   - component: {fileID: 652257563}
@@ -1721,7 +1705,6 @@ GameObject:
   - component: {fileID: 652257552}
   - component: {fileID: 652257551}
   - component: {fileID: 652257550}
-  - component: {fileID: 652257531}
   - component: {fileID: 652257519}
   - component: {fileID: 652257518}
   - component: {fileID: 652257517}
@@ -1738,9 +1721,51 @@ GameObject:
   - component: {fileID: 652257496}
   - component: {fileID: 652257495}
   - component: {fileID: 652257494}
-  - component: {fileID: 652257568}
   - component: {fileID: 652257569}
   - component: {fileID: 652257429}
+  - component: {fileID: 652257572}
+  - component: {fileID: 652257571}
+  - component: {fileID: 652257570}
+  - component: {fileID: 652257568}
+  - component: {fileID: 652257536}
+  - component: {fileID: 652257532}
+  - component: {fileID: 652257460}
+  - component: {fileID: 652257449}
+  - component: {fileID: 652257448}
+  - component: {fileID: 652257447}
+  - component: {fileID: 652257446}
+  - component: {fileID: 652257445}
+  - component: {fileID: 652257444}
+  - component: {fileID: 652257438}
+  - component: {fileID: 652257578}
+  - component: {fileID: 652257577}
+  - component: {fileID: 652257576}
+  - component: {fileID: 652257575}
+  - component: {fileID: 652257574}
+  - component: {fileID: 652257573}
+  - component: {fileID: 652257566}
+  - component: {fileID: 652257531}
+  - component: {fileID: 652257509}
+  - component: {fileID: 652257508}
+  - component: {fileID: 652257507}
+  - component: {fileID: 652257506}
+  - component: {fileID: 652257505}
+  - component: {fileID: 652257504}
+  - component: {fileID: 652257503}
+  - component: {fileID: 652257489}
+  - component: {fileID: 652257456}
+  - component: {fileID: 652257454}
+  - component: {fileID: 652257453}
+  - component: {fileID: 652257452}
+  - component: {fileID: 652257450}
+  - component: {fileID: 652257580}
+  - component: {fileID: 652257579}
+  - component: {fileID: 652257586}
+  - component: {fileID: 652257585}
+  - component: {fileID: 652257584}
+  - component: {fileID: 652257583}
+  - component: {fileID: 652257582}
+  - component: {fileID: 652257581}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1750,7 +1775,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &652257429
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1808,7 +1833,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 98.86851
     y: 45.68821
-    width: 66.326515
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1835,11 +1860,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -5.469899, y: 200.17453}
+  scrollPos: {x: 226.99165, y: 327.9148}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 270
-  zoom: 0.49000046
+  zoom: 0.43000045
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1847,8 +1872,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 652257431}
-  selectedCommands: []
+  - {fileID: 652257440}
+  selectedCommands:
+  - {fileID: 652257586}
   variables: []
   description: 
   stepPause: 0
@@ -1991,25 +2017,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 19
+  itemId: 229
   indentLevel: 0
+  storyText: "\u575A\u5B88\u9635\u5730"
   description: 
-  targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  character: {fileID: 1673714443}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &652257439
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2052,8 +2077,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 104.78273
-    y: 96.748856
-    width: 66.326515
+    y: 94.82578
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2074,17 +2099,8 @@ MonoBehaviour:
   - {fileID: 652257443}
   - {fileID: 652257442}
   - {fileID: 652257441}
-  - {fileID: 652257447}
-  - {fileID: 652257536}
-  - {fileID: 652257568}
-  - {fileID: 652257532}
-  - {fileID: 652257446}
-  - {fileID: 652257445}
+  - {fileID: 652257586}
   - {fileID: 652257444}
-  - {fileID: 652257448}
-  - {fileID: 652257449}
-  - {fileID: 652257460}
-  - {fileID: 652257438}
   suppressAllAutoSelections: 0
 --- !u!114 &652257441
 MonoBehaviour:
@@ -2100,7 +2116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: "\u62A5\uFF01\u8FDE\u957F\uFF01\u603B\u90E8\u4F20\u6765\u7535\u62A5\uFF01\u575A\u5B88\u9635\u5730\uFF01"
+  storyText: "\u62A5\uFF01\u8FDE\u957F\uFF01\u603B\u90E8\u4F20\u6765\u7535\u62A5\uFF01"
   description: 
   character: {fileID: 1673714443}
   portrait: {fileID: 0}
@@ -2176,24 +2192,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 16
+  itemId: 228
   indentLevel: 0
-  storyText: "\u6307\u6325\u90E8\u91CC\u628A\u706B\u7184\u706D\uFF0C\u628A\u706F\u5173\u6389\uFF01"
   description: 
-  character: {fileID: 1232796930}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 0e81543e94402504f9cfa67cbf1c0137, type: 3}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetObject: {fileID: 1324946223}
+  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: MorsecodeController
+  targetMethod: SetisCoding
+  targetMethodText: 'SetisCoding (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &652257445
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2203,24 +2220,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 15
+  itemId: 227
   indentLevel: 0
-  storyText: "\u56AF\uFF0C\u7F8E\u56FD\u4F6C\u6765\u5F97\u8FD9\u4E48\u5FEB\uFF1F\u5F1F\u5144\u4EEC\uFF0C\u628A\u67AA\u90FD\u4E0A\u597D\u819B\uFF0C\u5E26\u4E0A\u54B1\u4EEC\u7684\u5BB6\u4F19\uFF0C\u51C6\u5907\u5F00\u6253\u4E86\uFF01"
   description: 
-  character: {fileID: 652779615}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 63cd7386d595b7f4b87384bbcf6f18a7, type: 3}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetObject: {fileID: 1324946223}
+  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: MorsecodeController
+  targetMethod: SetisCoding
+  targetMethodText: 'SetisCoding (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &652257446
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2233,13 +2251,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 14
+  itemId: 226
   indentLevel: 0
-  storyText: "\u62A5\u544A\uFF01\u524D\u65B9\u4FA6\u6D4B\u5230\u654C\u519B\u884C\u519B\u8FF9\u8C61\uFF01"
+  storyText: "\u62A5\u52A1\u5458\uFF0C\u544A\u8BC9\u603B\u90E8\uFF01\u654C\u4EBA\u6765\u4E86\uFF01"
   description: 
-  character: {fileID: 418252036}
+  character: {fileID: 652779615}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 339e5cbf21883084085703ee9027ea3a, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2260,13 +2278,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 13
+  itemId: 225
   indentLevel: 0
-  storyText: "\u597D\uFF0C\u5F1F\u5144\u4EEC\uFF01\u603B\u90E8\u4E0B\u4E86\u6B7B\u547D\u4EE4\uFF0C\u575A\u5B88\u9635\u5730\uFF01\u8A93\u6B7B\u5B88\u4F4F\u8FD9\u4E2A\u5C71\u5934\uFF01"
+  storyText: "\uFF08\u8BF7\u5BF9\u7740\u9EA6\u514B\u98CE\u5439\u4E00\u53E3\u6C14\uFF09"
   description: 
-  character: {fileID: 652779615}
+  character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 4ac25fc0c695d1143827a82e03caf8ba, type: 3}
+  voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2287,7 +2305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 17
+  itemId: 224
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
@@ -2308,13 +2326,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 18
+  itemId: 223
   indentLevel: 0
-  storyText: "\uFF08\u8BF7\u5BF9\u7740\u9EA6\u514B\u98CE\u5439\u4E00\u53E3\u6C14\uFF09"
+  storyText: "\u6307\u6325\u90E8\u91CC\u628A\u706B\u7184\u706D\uFF0C\u628A\u706F\u5173\u6389\uFF01"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1232796930}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 0e81543e94402504f9cfa67cbf1c0137, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2332,24 +2350,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 51
+  itemId: 252
   indentLevel: 0
-  storyText: "\u62A5\u52A1\u5458\u5411\u603B\u90E8\u62A5\u544A\u60C5\u51B5\uFF01"
   description: 
-  character: {fileID: 652779615}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: a43cfe6fb9d8d40458c2c478778b0017, type: 3}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetObject: {fileID: 1324946223}
+  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: MorsecodeController
+  targetMethod: SetisCoding
+  targetMethodText: 'SetisCoding (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &652257451
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2390,13 +2409,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 50
+  itemId: 251
   indentLevel: 0
-  storyText: "\u628A\u54B1\u4EEC\u7684\u8FEB\u51FB\u70AE\u62C9\u51FA\u6765\uFF0C\u51C6\u5907\u72E0\u72E0\u5730\u8F70\u8FD9\u5E2E\u738B\u516B\u7F94\u5B50\uFF0C\u5F1F\u5144\u4EEC\u62A5\u4EC7\uFF01"
+  storyText: "\u62A5\u52A1\u5458\uFF0C\u5411\u603B\u90E8\u62A5\u544A\uFF0C\u8FD9\u91CC\u6307\u6325\u6743\u4EA4\u7ED9\u6307\u5BFC\u5458\uFF01"
   description: 
   character: {fileID: 652779615}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 95de744480b14be43b8dbfaa4ee33ce2, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: fc604af024a251348bc2d3595b97df7f, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2417,13 +2436,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 49
+  itemId: 250
   indentLevel: 0
-  storyText: "\u5F1F\u5144\u4EEC\uFF0C\u90FD\u542C\u5230\u4E86\u5417\uFF1F"
+  storyText: "\u4F60\u600E\u4E48\u4E86\uFF01\uFF1F\u8BF4\u8BDD\u554A\uFF01\uFF01"
   description: 
   character: {fileID: 652779615}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 5b6efbaca521ecc458d83313eb9281df, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 617b1e7b89765c1449d524b940ca34ea, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2444,13 +2463,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 48
+  itemId: 249
   indentLevel: 0
-  storyText: "\u62A5\u544A\u8FDE\u957F\uFF01\u8FDE\u91CC\u6B7B\u4EA13\u4EBA\uFF0C1\u4EBA\u817F\u90E8\u4E2D\u5F39\u3002"
+  storyText: "\u62A5\u544A\u2026\u2026\u6211\u519B\u6B7B\u4EA1\u4EBA\u657066\u4EBA\uFF0C\u53D7\u4F24\u3001\u53D7\u4F24\u4EBA\u657023\u2026\u2026"
   description: 
   character: {fileID: 1522192753}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 9b8da6aca85e02642b2e5644dee282f4, type: 3}
+  voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2473,7 +2492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: "\u62A5\uFF01\u603B\u90E8\u6765\u7535\uFF0C\u201C\u51C6\u5907\u9632\u5B88\u7B2C\u4E8C\u8F6E\u8FDB\u653B\u201D\u3002"
+  storyText: "\u62A5\uFF01\u603B\u90E8\u6765\u7535\u3002"
   description: 
   character: {fileID: 1673714443}
   portrait: {fileID: 0}
@@ -2495,25 +2514,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 42
+  itemId: 248
   indentLevel: 0
+  storyText: "\u8001\u5B50\u5C31\u662F\u54BD\u4E0D\u4E0B\u8FD9\u53E3\u6C14\uFF01"
   description: 
-  targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  character: {fileID: 652779615}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a13c056b6d2a34d4ca6276e02c11af19, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &652257457
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2582,25 +2600,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 183.04712
-    y: 53.441536
-    width: 66.326515
+    x: 187.03206
+    y: 41.07039
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 53
-  blockName: D4
+  blockName: D5
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 652257458}
   - {fileID: 652257457}
   - {fileID: 652257455}
-  - {fileID: 652257454}
-  - {fileID: 652257453}
-  - {fileID: 652257452}
-  - {fileID: 652257450}
-  - {fileID: 652257456}
+  - {fileID: 652257584}
+  - {fileID: 652257578}
   suppressAllAutoSelections: 0
 --- !u!114 &652257460
 MonoBehaviour:
@@ -2614,13 +2629,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 37
+  itemId: 222
   indentLevel: 0
-  storyText: "\u62A5\u52A1\u5458\uFF0C\u544A\u8BC9\u603B\u90E8\uFF01\u654C\u4EBA\u6765\u4E86\uFF01"
+  storyText: "\u56AF\uFF0C\u7F8E\u56FD\u4F6C\u6765\u5F97\u8FD9\u4E48\u5FEB\uFF1F\u5F1F\u5144\u4EEC\uFF0C\u628A\u67AA\u90FD\u4E0A\u597D\u819B\uFF0C\u5E26\u4E0A\u54B1\u4EEC\u7684\u5BB6\u4F19\uFF0C\u51C6\u5907\u5F00\u6253\u4E86\uFF01"
   description: 
   character: {fileID: 652779615}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 339e5cbf21883084085703ee9027ea3a, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 63cd7386d595b7f4b87384bbcf6f18a7, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -2781,14 +2796,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 110.71667
-    y: 138.60736
-    width: 66.326515
+    x: 95.64515
+    y: 182.12256
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 52
-  blockName: D2
+  blockName: D3
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -2977,14 +2992,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 182.33815
-    y: 95.8477
-    width: 66.326515
+    x: 188.18039
+    y: 143.30757
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 108
-  blockName: D5
+  blockName: D7
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -3095,14 +3110,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 111.39039
-    y: 185.20839
-    width: 66.326515
+    x: 108.45472
+    y: 274.31296
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 54
-  blockName: D3
+  blockName: D4
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -3181,14 +3196,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 190.4542
-    y: 140.09866
-    width: 66.326515
+    x: 190.30865
+    y: 190.6868
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 110
-  blockName: D6
+  blockName: D8
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -3349,14 +3364,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 190.00494
-    y: 186.22038
-    width: 66.326515
+    x: 188.82848
+    y: 236.80852
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 109
-  blockName: D7
+  blockName: D9
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -3427,25 +3442,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 94
+  itemId: 247
   indentLevel: 0
+  storyText: "\u8FDE\u957F\uFF0C\u8FD9\u4E2A\u60C5\u51B5\u2026\u2026\u8FD8\u662F\u5C3D\u5FEB\u51C6\u5907\u64A4\u9000\u4E0E\u589E\u63F4\u90E8\u961F\u6C47\u5408\u5427\u3002"
   description: 
-  targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  character: {fileID: 1232796930}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &652257490
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3541,14 +3555,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 273.32385
-    y: 56.71061
-    width: 66.326515
+    x: 264.0215
+    y: 40.431545
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 112
-  blockName: D8
+  blockName: D10
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -3562,16 +3576,8 @@ MonoBehaviour:
   - {fileID: 652257512}
   - {fileID: 652257511}
   - {fileID: 652257510}
-  - {fileID: 652257531}
-  - {fileID: 652257566}
+  - {fileID: 652257582}
   - {fileID: 652257509}
-  - {fileID: 652257508}
-  - {fileID: 652257507}
-  - {fileID: 652257506}
-  - {fileID: 652257505}
-  - {fileID: 652257504}
-  - {fileID: 652257503}
-  - {fileID: 652257489}
   suppressAllAutoSelections: 0
 --- !u!114 &652257494
 MonoBehaviour:
@@ -3772,13 +3778,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 107
+  itemId: 246
   indentLevel: 0
-  storyText: "\u62A5\u52A1\u5458\uFF0C\u5411\u603B\u90E8\u62A5\u544A\uFF0C\u8FD9\u91CC\u6307\u6325\u6743\u4EA4\u7ED9\u6307\u5BFC\u5458\uFF01"
+  storyText: "\u62A5\u544A\uFF01\u6211\u519B\u6E83\u8D25\uFF0C\u654C\u519B\u7A81\u7834\u4E86\u524D\u65B9\u7684\u8BBE\u9632\uFF0C\u6B63\u5728\u63A5\u8FD1\u5C71\u9876\u6700\u540E\u9632\u7EBF\uFF01"
   description: 
-  character: {fileID: 652779615}
+  character: {fileID: 418252036}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: fc604af024a251348bc2d3595b97df7f, type: 3}
+  voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3799,13 +3805,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 106
+  itemId: 245
   indentLevel: 0
-  storyText: "\u4F60\u600E\u4E48\u4E86\uFF01\uFF1F\u8BF4\u8BDD\u554A\uFF01\uFF01"
+  storyText: "Fire in the hole\uFF01"
   description: 
-  character: {fileID: 652779615}
+  character: {fileID: 1538273039}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 617b1e7b89765c1449d524b940ca34ea, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: b0c3c4943634f634bac8fd713f410ab6, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3823,24 +3829,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 105
+  itemId: 244
   indentLevel: 0
-  storyText: "\u62A5\u544A\u2026\u2026\u6211\u519B\u6B7B\u4EA1\u4EBA\u657066\u4EBA\uFF0C\u53D7\u4F24\u3001\u53D7\u4F24\u4EBA\u657023\u2026\u2026"
-  description: 
-  character: {fileID: 1522192753}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: ffd948861fafa864191ea933adc98b63, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &652257506
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3850,24 +3846,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 104
+  itemId: 243
   indentLevel: 0
-  storyText: "\u8001\u5B50\u5C31\u662F\u54BD\u4E0D\u4E0B\u8FD9\u53E3\u6C14\uFF01"
-  description: 
-  character: {fileID: 652779615}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: a13c056b6d2a34d4ca6276e02c11af19, type: 3}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  soundClip: {fileID: 8300000, guid: 81f9643ef7a5a444c999b3ef8caed90c, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!114 &652257507
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3880,11 +3866,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 103
+  itemId: 242
   indentLevel: 0
-  storyText: "\u8FDE\u957F\uFF0C\u8FD9\u4E2A\u60C5\u51B5\u2026\u2026\u8FD8\u662F\u5C3D\u5FEB\u51C6\u5907\u64A4\u9000\u4E0E\u589E\u63F4\u90E8\u961F\u6C47\u5408\u5427\u3002"
+  storyText: "\u5DF2\u6D3E\u51FA\u589E\u63F4"
   description: 
-  character: {fileID: 1232796930}
+  character: {fileID: 1673714443}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3904,24 +3890,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 102
-  indentLevel: 0
-  storyText: "\u62A5\u544A\uFF01\u6211\u519B\u6E83\u8D25\uFF0C\u654C\u519B\u7A81\u7834\u4E86\u524D\u65B9\u7684\u8BBE\u9632\uFF0C\u6B63\u5728\u63A5\u8FD1\u5C71\u9876\u6700\u540E\u9632\u7EBF\uFF01"
+  nodeRect:
+    serializedVersion: 2
+    x: 270.60144
+    y: 95.38652
+    width: 60
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 241
+  blockName: D11
   description: 
-  character: {fileID: 418252036}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 652257581}
+  - {fileID: 652257507}
+  - {fileID: 652257506}
+  - {fileID: 652257505}
+  - {fileID: 652257504}
+  - {fileID: 652257503}
+  - {fileID: 652257489}
+  - {fileID: 652257456}
+  - {fileID: 652257454}
+  - {fileID: 652257453}
+  - {fileID: 652257452}
+  - {fileID: 652257450}
+  suppressAllAutoSelections: 0
 --- !u!114 &652257509
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3931,24 +3928,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 101
+  itemId: 240
   indentLevel: 0
-  storyText: "Fire in the hole\uFF01"
   description: 
-  character: {fileID: 1538273039}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: b0c3c4943634f634bac8fd713f410ab6, type: 3}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetObject: {fileID: 1324946223}
+  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: MorsecodeController
+  targetMethod: SetisCoding
+  targetMethodText: 'SetisCoding (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &652257510
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3963,7 +3961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 100
   indentLevel: 0
-  storyText: "\u603B\u90E8\u56DE\u7535\u4E86\uFF01\u201C\u5DF2\u6D3E\u51FA\u589E\u63F4\u201D"
+  storyText: "\u603B\u90E8\u56DE\u7535\u4E86"
   description: 
   character: {fileID: 1673714443}
   portrait: {fileID: 0}
@@ -4044,14 +4042,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 277.23785
-    y: 190.48294
-    width: 72.857124
+    x: 272.53192
+    y: 232.83578
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 202
-  blockName: D11
+  blockName: D14
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -4222,7 +4220,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 11.508039
     y: 109.83241
-    width: 69.59182
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4478,14 +4476,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 194
+  itemId: 237
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: 81f9643ef7a5a444c999b3ef8caed90c, type: 3}
-  volume: 1
-  waitUntilFinished: 0
+  storyText: "\u51C6\u5907\u9632\u5B88\u7B2C\u4E8C\u8F6E\u8FDB\u653B"
+  description: 
+  character: {fileID: 1673714443}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &652257532
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4495,15 +4503,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 149
+  itemId: 221
   indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  durationOLD: 0
+  storyText: "\u62A5\u544A\uFF01\u524D\u65B9\u4FA6\u6D4B\u5230\u654C\u519B\u884C\u519B\u8FF9\u8C61\uFF01"
+  description: 
+  character: {fileID: 418252036}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &652257533
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4577,20 +4594,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 144
+  itemId: 220
   indentLevel: 0
-  control: 0
-  _audioSource:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 1899923903}
-  startVolume: 1
-  endVolume: 1
-  fadeDuration: 0
-  waitUntilFinished: 0
-  audioSourceOLD: {fileID: 0}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 2
+  durationOLD: 0
 --- !u!114 &652257537
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5107,14 +5119,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 274.5866
-    y: 99.28659
-    width: 66.326515
+    x: 273.26456
+    y: 141.63945
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 184
-  blockName: D9
+  blockName: D12
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5276,14 +5288,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 276.01538
-    y: 140.09059
-    width: 72.857124
+    x: 274.58813
+    y: 183.6199
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 166
-  blockName: D10
+  blockName: D13
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5299,6 +5311,8 @@ MonoBehaviour:
   - {fileID: 652257516}
   - {fileID: 652257515}
   - {fileID: 652257514}
+  - {fileID: 652257580}
+  - {fileID: 652257579}
   suppressAllAutoSelections: 0
 --- !u!114 &652257566
 MonoBehaviour:
@@ -5309,14 +5323,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 165
+  itemId: 236
   indentLevel: 0
-  soundClip: {fileID: 8300000, guid: ffd948861fafa864191ea933adc98b63, type: 3}
-  volume: 1
-  waitUntilFinished: 0
+  description: 
+  targetObject: {fileID: 1324946223}
+  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: MorsecodeController
+  targetMethod: SetisCoding
+  targetMethodText: 'SetisCoding (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &652257567
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5342,7 +5367,7 @@ MonoBehaviour:
   audioSourceOLD: {fileID: 0}
 --- !u!114 &652257568
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5352,14 +5377,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 213
+  itemId: 219
   indentLevel: 0
   targetObject: {fileID: 1324946223}
   methodName: SetisCoding
   delay: 0
 --- !u!114 &652257569
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5385,6 +5410,448 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
+--- !u!114 &652257570
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 218
+  indentLevel: 0
+  control: 0
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 1899923903}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
+--- !u!114 &652257571
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 217
+  indentLevel: 0
+  storyText: "\u597D\uFF0C\u5F1F\u5144\u4EEC\uFF01\u603B\u90E8\u4E0B\u4E86\u6B7B\u547D\u4EE4\uFF0C\u575A\u5B88\u9635\u5730\uFF01\u8A93\u6B7B\u5B88\u4F4F\u8FD9\u4E2A\u5C71\u5934\uFF01"
+  description: 
+  character: {fileID: 652779615}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 4ac25fc0c695d1143827a82e03caf8ba, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &652257572
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 99.15649
+    y: 139.15596
+    width: 60
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 216
+  blockName: D2
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 652257585}
+  - {fileID: 652257438}
+  - {fileID: 652257571}
+  - {fileID: 652257570}
+  - {fileID: 652257568}
+  - {fileID: 652257536}
+  - {fileID: 652257532}
+  - {fileID: 652257460}
+  - {fileID: 652257449}
+  - {fileID: 652257448}
+  - {fileID: 652257447}
+  - {fileID: 652257446}
+  - {fileID: 652257445}
+  suppressAllAutoSelections: 0
+--- !u!114 &652257573
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 235
+  indentLevel: 0
+  storyText: "\u62A5\u52A1\u5458\u5411\u603B\u90E8\u62A5\u544A\u60C5\u51B5\uFF01"
+  description: 
+  character: {fileID: 652779615}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: a43cfe6fb9d8d40458c2c478778b0017, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &652257574
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 234
+  indentLevel: 0
+  storyText: "\u628A\u54B1\u4EEC\u7684\u8FEB\u51FB\u70AE\u62C9\u51FA\u6765\uFF0C\u51C6\u5907\u72E0\u72E0\u5730\u8F70\u8FD9\u5E2E\u738B\u516B\u7F94\u5B50\uFF0C\u5F1F\u5144\u4EEC\u62A5\u4EC7\uFF01"
+  description: 
+  character: {fileID: 652779615}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 95de744480b14be43b8dbfaa4ee33ce2, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &652257575
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 233
+  indentLevel: 0
+  storyText: "\u5F1F\u5144\u4EEC\uFF0C\u90FD\u542C\u5230\u4E86\u5417\uFF1F"
+  description: 
+  character: {fileID: 652779615}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 5b6efbaca521ecc458d83313eb9281df, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &652257576
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 232
+  indentLevel: 0
+  storyText: "\u62A5\u544A\u8FDE\u957F\uFF01\u8FDE\u91CC\u6B7B\u4EA13\u4EBA\uFF0C1\u4EBA\u817F\u90E8\u4E2D\u5F39\u3002"
+  description: 
+  character: {fileID: 1522192753}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 9b8da6aca85e02642b2e5644dee282f4, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &652257577
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 185.12021
+    y: 93.30099
+    width: 60
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 231
+  blockName: D6
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 652257583}
+  - {fileID: 652257531}
+  - {fileID: 652257576}
+  - {fileID: 652257575}
+  - {fileID: 652257574}
+  - {fileID: 652257573}
+  - {fileID: 652257566}
+  suppressAllAutoSelections: 0
+--- !u!114 &652257578
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 230
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1324946223}
+  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: MorsecodeController
+  targetMethod: SetisCoding
+  targetMethodText: 'SetisCoding (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &652257579
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 254
+  indentLevel: 0
+  control: 3
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 620623027}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 1
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
+--- !u!114 &652257580
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 253
+  indentLevel: 0
+  control: 3
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 1780615462}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 1
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
+--- !u!114 &652257581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 261
+  indentLevel: 0
+  control: 3
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 1732830804}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
+--- !u!114 &652257582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 260
+  indentLevel: 0
+  control: 1
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 1968767359}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
+--- !u!114 &652257583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 259
+  indentLevel: 0
+  control: 3
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 852916096}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
+--- !u!114 &652257584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 258
+  indentLevel: 0
+  control: 1
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 852916096}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
+--- !u!114 &652257585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 257
+  indentLevel: 0
+  control: 3
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 1968767359}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
+--- !u!114 &652257586
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 255
+  indentLevel: 0
+  control: 0
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 1968767359}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
 --- !u!1 &652779613
 GameObject:
   m_ObjectHideFlags: 0
@@ -5466,7 +5933,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 385834954}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5528,6 +5995,107 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Str: "\u4E2D\u56FD\u4EBA\u6C11\u5FD7\u613F\u519B\u4E07\u5C81\uFF01\u7B2C\u4E03\u8FDE\u6C38\u5782\u4E0D\u673D\uFF01"
+--- !u!1001 &852916094
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 294878022}
+    m_Modifications:
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869165, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_Name
+      value: "\u51C6\u5907\u9632\u5B88"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 098ab2edd5cfe0f4e903ebeb7b1993d3, type: 3}
+    - target: {fileID: 7496776670342869167, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: PlayTime
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 279e785932457554aa5ea68aae3869bd, type: 3}
+--- !u!4 &852916095 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 852916094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &852916096 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 852916094}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &985236416
 GameObject:
   m_ObjectHideFlags: 0
@@ -5710,7 +6278,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1012244729
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5752,7 +6320,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: ab05bb1b1f5a15b43b7423e1203bf1fb, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5771,7 +6339,7 @@ Transform:
   m_GameObject: {fileID: 1012244728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.0296, y: -0.001, z: 0}
-  m_LocalScale: {x: 1.9, y: 0, z: 1}
+  m_LocalScale: {x: 1.9, y: 1.9, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
@@ -6117,7 +6685,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   light1: {fileID: 607388333}
   light2: {fileID: 1815583}
-  light3: {fileID: 1070589445}
 --- !u!114 &1018426379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6588,9 +7155,10 @@ MonoBehaviour:
   Pulse: {fileID: 1563864658}
   Up: {fileID: 1944220746}
   missCount: 0
-  Blood: {fileID: 0}
+  Blood: {fileID: 1012244728}
   Sentence1Text: {fileID: 371599470}
   TargetText: {fileID: 1032488174}
+  MorseComeText: {fileID: 1922293952}
   MorseText: {fileID: 2050512450}
   TimeText1: {fileID: 1637457230}
   TimeText2: {fileID: 1583863834}
@@ -6603,6 +7171,10 @@ MonoBehaviour:
     target: BF W
     Morse: 10000010011
     time: 90
+  - words: "\u575A\u5B88\u9635\u5730"
+    target: JSZD
+    Morse: 01110001100100
+    time: 45
   - words: "\u9047\u654C"
     target: Y D
     Morse: 1011100
@@ -6614,6 +7186,10 @@ MonoBehaviour:
   - words: "\u51FB\u9000\u654C\u519B"
     target: JTDJ
     Morse: 011111000111
+    time: 30
+  - words: "\u51C6\u5907\u9632\u5B88"
+    target: ZBFS
+    Morse: 110010000010000
     time: 30
   - words: "\u4E09\u6B7B\u4E00\u4F24"
     target: SSYS
@@ -6639,6 +7215,10 @@ MonoBehaviour:
     target: 'YPXS '
     Morse: 101101101001000
     time: 28
+  - words: "\u5DF2\u6D3E\u51FA\u589E\u63F4"
+    target: YPCZY
+    Morse: 10110110101011001011
+    time: 30
   - words: "\u6307\u5BFC\u6307\u6325 "
     target: ZDZH
     Morse: 110010011000000
@@ -6663,19 +7243,6 @@ MonoBehaviour:
     target: ZYJWS
     Morse: 110010110111011000
     time: 35
-  sentencesCome:
-  - words: "\u575A\u5B88\u9635\u5730"
-    target: JSZD
-    Morse: 0111 000 1100 100
-    time: 45
-  - words: "\u9632\u5B88\u4E8C\u8F6E"
-    target: FSEL
-    Morse: 001000000100
-    time: 30
-  - words: "\u5DF2\u589E\u5458"
-    target: YZY
-    Morse: 101111001011
-    time: 21
 --- !u!82 &1324946226
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7251,7 +7818,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 590, y: 409.99994}
+  m_AnchoredPosition: {x: 716.3, y: 409.99994}
   m_SizeDelta: {x: 202.9422, y: 72.9422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1583863834
@@ -7373,7 +7940,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 535, y: 409.9999}
+  m_AnchoredPosition: {x: 672.7, y: 409.9999}
   m_SizeDelta: {x: 202.9422, y: 72.9422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1637457230
@@ -7612,7 +8179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.19607843}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7719,6 +8286,97 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1732830802
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 294878022}
+    m_Modifications:
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869165, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_Name
+      value: "\u5DF2\u6D3E\u51FA\u589E\u63F4"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c3d219c5979839940a4df47ff40ed791, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 279e785932457554aa5ea68aae3869bd, type: 3}
+--- !u!4 &1732830803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1732830802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1732830804 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1732830802}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1780615460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7790,6 +8448,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Loop
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
         type: 3}
@@ -8276,6 +8939,97 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1968767357
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 294878022}
+    m_Modifications:
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869165, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_Name
+      value: "\u575A\u5B88\u9635\u5730"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a709adb67d25d9143ac77f7be9d2f795, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 279e785932457554aa5ea68aae3869bd, type: 3}
+--- !u!4 &1968767358 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7496776670342869164, guid: 279e785932457554aa5ea68aae3869bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1968767357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1968767359 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7496776670342869166, guid: 279e785932457554aa5ea68aae3869bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1968767357}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2001588242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8474,7 +9228,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 672, y: 409.99994}
+  m_AnchoredPosition: {x: 545, y: 409.99994}
   m_SizeDelta: {x: 202.9422, y: 72.9422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2142463640

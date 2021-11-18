@@ -635,85 +635,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &348426429
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 348426430}
-  - component: {fileID: 348426432}
-  - component: {fileID: 348426431}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &348426430
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348426429}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1710161805}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &348426431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348426429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "\u5220\u9664"
---- !u!222 &348426432
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348426429}
-  m_CullTransparentMesh: 1
 --- !u!1 &358441539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1683,7 +1604,6 @@ GameObject:
   - component: {fileID: 652257432}
   - component: {fileID: 652257431}
   - component: {fileID: 652257430}
-  - component: {fileID: 652257429}
   - component: {fileID: 652257440}
   - component: {fileID: 652257439}
   - component: {fileID: 652257437}
@@ -1818,6 +1738,9 @@ GameObject:
   - component: {fileID: 652257496}
   - component: {fileID: 652257495}
   - component: {fileID: 652257494}
+  - component: {fileID: 652257568}
+  - component: {fileID: 652257569}
+  - component: {fileID: 652257429}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1827,32 +1750,21 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &652257429
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 2
+  itemId: 215
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257430
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1894,9 +1806,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 102.95014
-    y: 57.93309
-    width: 60
+    x: 98.86851
+    y: 45.68821
+    width: 66.326515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1908,6 +1820,7 @@ MonoBehaviour:
   - {fileID: 652257497}
   - {fileID: 652257430}
   - {fileID: 652257429}
+  - {fileID: 652257569}
   suppressAllAutoSelections: 0
 --- !u!114 &652257432
 MonoBehaviour:
@@ -1922,11 +1835,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 12.464132, y: 84.48393}
+  scrollPos: {x: -5.469899, y: 200.17453}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 270
-  zoom: 0.6700003
+  zoom: 0.49000046
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1934,7 +1847,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 652257513}
+  - {fileID: 652257431}
   selectedCommands: []
   variables: []
   description: 
@@ -2140,7 +2053,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.78273
     y: 96.748856
-    width: 60
+    width: 66.326515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2163,6 +2076,7 @@ MonoBehaviour:
   - {fileID: 652257441}
   - {fileID: 652257447}
   - {fileID: 652257536}
+  - {fileID: 652257568}
   - {fileID: 652257532}
   - {fileID: 652257446}
   - {fileID: 652257445}
@@ -2668,9 +2582,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 187.12875
-    y: 55.48235
-    width: 60
+    x: 183.04712
+    y: 53.441536
+    width: 66.326515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2867,9 +2781,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 100.66488
-    y: 138.05908
-    width: 60
+    x: 110.71667
+    y: 138.60736
+    width: 66.326515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3063,9 +2977,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 186.41978
-    y: 97.88852
-    width: 60
+    x: 182.33815
+    y: 95.8477
+    width: 66.326515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3182,8 +3096,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 111.39039
-    y: 187.2492
-    width: 60
+    y: 185.20839
+    width: 66.326515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3269,7 +3183,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 190.4542
     y: 140.09866
-    width: 60
+    width: 66.326515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3437,7 +3351,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 190.00494
     y: 186.22038
-    width: 60
+    width: 66.326515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3627,9 +3541,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 274.81638
+    x: 273.32385
     y: 56.71061
-    width: 60
+    width: 66.326515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4130,9 +4044,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 280.8742
-    y: 195.93747
-    width: 60
+    x: 277.23785
+    y: 190.48294
+    width: 72.857124
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4308,7 +4222,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 11.508039
     y: 109.83241
-    width: 60
+    width: 69.59182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5195,7 +5109,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 274.5866
     y: 99.28659
-    width: 60
+    width: 66.326515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5363,8 +5277,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 276.01538
-    y: 147.3633
-    width: 60
+    y: 140.09059
+    width: 72.857124
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5426,6 +5340,51 @@ MonoBehaviour:
   fadeDuration: 0
   waitUntilFinished: 0
   audioSourceOLD: {fileID: 0}
+--- !u!114 &652257568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 213
+  indentLevel: 0
+  targetObject: {fileID: 1324946223}
+  methodName: SetisCoding
+  delay: 0
+--- !u!114 &652257569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 214
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1324946223}
+  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: MorsecodeController
+  targetMethod: SetisCoding
+  targetMethodText: 'SetisCoding (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!1 &652779613
 GameObject:
   m_ObjectHideFlags: 0
@@ -6221,7 +6180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7575,15 +7534,14 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 348426430}
+  m_Children: []
   m_Father: {fileID: 385834954}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1023, y: -297}
-  m_SizeDelta: {x: 160, y: 160}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1710161806
 MonoBehaviour:
@@ -7661,7 +7619,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 2c27ca9a39d06f84c87622602e4860d8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -99,6 +99,9 @@
     <Compile Include="Assets\Scripts\LevelTwo\CuiDengController.cs" />
     <Compile Include="Assets\Scripts\LevelTwo\TextController.cs" />
     <Compile Include="Assets\QuickSave\CompressionMode.cs" />
+    <Compile Include="Assets\Scripts\LevelThree\PickLockController.cs" />
+    <Compile Include="Assets\Scripts\LevelThree\LockCoreController.cs" />
+    <Compile Include="Assets\Scripts\LevelThree\CodeController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\QuickSave\Plugins\jillejr.newtonsoft.json-for-unity@12.0.301\Plugins\Newtonsoft.Json Portable\Newtonsoft.Json.xml" />

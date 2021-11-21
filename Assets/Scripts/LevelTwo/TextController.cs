@@ -24,6 +24,9 @@ public class TextController : MonoBehaviour
             i++;
             invokeTime = 0;
         }
-        text.text = Str.Substring(0, i);
+        if (i < Str.Length)
+        {
+            text.text = Str.Substring(0, i);
+        }
     }
 }

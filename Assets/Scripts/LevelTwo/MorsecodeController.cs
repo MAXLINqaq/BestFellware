@@ -21,7 +21,7 @@ public class MorsecodeController : MonoBehaviour
     public  int missCount;
     public GameObject Blood;
 
-    private int i = 0;
+    public  int i;
     private float SinvokeTime;
     private string CountDown;
     private int storyCount = 0;
@@ -82,8 +82,10 @@ public class MorsecodeController : MonoBehaviour
             StoryController();
         }
         Miss();
-
-        GameplayController();
+        if (missCount != 2)
+        {
+            GameplayController();
+        }  
         //ReplyController();
     }
     public void IsDown()
@@ -132,6 +134,7 @@ public class MorsecodeController : MonoBehaviour
     }
     private void GameplayController()
     {
+        bool  colorFlag = true ;
         if (isCoding)
         {
             SinvokeTime += Time.deltaTime;
@@ -189,39 +192,137 @@ public class MorsecodeController : MonoBehaviour
 
             if (i == 1 || i == 5 || i == 12)
             {
+                if (colorFlag)
+                {
+                    TargetText.color = Color.blue;
+                    colorFlag = false;
+
+                }
+                
                 if (i == 1)
                 {
                     MorseComeText.text = "，---，，，--，，-，，";
+                    if (AnswerStr.Length < 4)
+                    {
+                        Sentence1Text.text = "";
+                        TargetText.text="";
+                    }
+                    else if (AnswerStr.Length < 7)
+                    {
+                        Sentence1Text.text = sentences[i].words .Substring(0,1);
+                        TargetText.text = sentences[i].target.Substring(0, 1);
+                    }
+                    else if (AnswerStr.Length <11)
+                    {
+                        Sentence1Text.text = sentences[i].words.Substring(0, 2);
+                        TargetText.text = sentences[i].target.Substring(0, 2);
+                    }
+                    else  if (AnswerStr.Length <13)
+                    {
+                        Sentence1Text.text = sentences[i].words.Substring(0, 3);
+                        TargetText.text = sentences[i].target.Substring(0, 3);
+                    }
+                    else  
+                    {
+                        Sentence1Text.text = sentences[i].words;
+                        TargetText.text = sentences[i].target;
+                    }
                 }
                 if (i == 5)
                 {
                     MorseComeText.text = "--，，-，，，，，-，，，，";
+                    MorseComeText.fontSize = 55;
+                    if (AnswerStr.Length < 4)
+                    {
+                        Sentence1Text.text = "";
+                        TargetText.text = "";
+                    }
+                    else if (AnswerStr.Length < 8)
+                    {
+                        Sentence1Text.text = sentences[i].words.Substring(0, 1);
+                        TargetText.text = sentences[i].target.Substring(0, 1);
+                    }
+                    else if (AnswerStr.Length <12)
+                    {
+                        Sentence1Text.text = sentences[i].words.Substring(0, 2);
+                        TargetText.text = sentences[i].target.Substring(0, 2);
+                    }
+                    else  if (AnswerStr.Length < 14)
+                    {
+                        Sentence1Text.text = sentences[i].words.Substring(0, 3);
+                        TargetText.text = sentences[i].target.Substring(0, 3);
+                    }
+                    else 
+                    {
+                        Sentence1Text.text = sentences[i].words;
+                        TargetText.text = sentences[i].target;
+                    }
                 }
                 if (i == 12)
                 {
                     MorseComeText.text = "-，--，--，-，-，--，，-，--";
+                    MorseComeText.fontSize = 40;
+                    if (AnswerStr.Length < 4)
+                    {
+                        Sentence1Text.text = "";
+                        TargetText.text = "";
+                    }
+                    else if (AnswerStr.Length < 8)
+                    {
+                        Sentence1Text.text = sentences[i].words.Substring(0, 1);
+                        TargetText.text = sentences[i].target.Substring(0, 1);
+                    }
+                    else if (AnswerStr.Length <12)
+                    {
+                        Sentence1Text.text = sentences[i].words.Substring(0, 2);
+                        TargetText.text = sentences[i].target.Substring(0, 2);
+                    }
+                    else  if (AnswerStr.Length <14)
+                    {
+                        Sentence1Text.text = sentences[i].words.Substring(0, 3);
+                        TargetText.text = sentences[i].target.Substring(0, 3);
+                    }
+                    else  if (AnswerStr.Length <16)
+                    {
+                        Sentence1Text.text = sentences[i].words.Substring(0, 4);
+                        TargetText.text = sentences[i].target.Substring(0, 4);
+                    }
+                    else  
+                    {
+                        Sentence1Text.text = sentences[i].words;
+                        TargetText.text = sentences[i].target;
+                    }
                 }
-                Sentence1Text.text = "";
-                TargetText.text = "";
+
                 MissionText.text = "俊辺佚連��";
+
             }
             else
             {
+                TargetText.color = Color.red;
                 MissionText.text = "窟僕佚連��";
             }
 
             if (AnswerStr.Length >= sentences[i].Morse.Length)
             {
+                if (sentences[i].Morse.Length > 16)
+                {
+                    MorseText.fontSize = 40;
+                }
+                else
+                {
+                    MorseText.fontSize = 60;
+                }
                 if (AnswerStr == sentences[i].Morse)
                 {
-                    Sentence1Text.text = sentences[i].words;
-                    TargetText.text = sentences[i].target;
+                    MorseComeText.text = "";
+                    
                     missCount = 0;
                     i++;
                     SinvokeTime = 0;
                     AnswerStr = "";
                     MorseStr = "";
-                    if (storyCount < 11)
+                    if (storyCount < 13)
                     {
                         isExcute = false;
                         isCoding = false;
@@ -229,21 +330,25 @@ public class MorsecodeController : MonoBehaviour
                     else
                     {
                         isCoding = true;
+                        isExcute = false ;
                     }
                     missCount = 0;
                     MissionText.text = "";
                 }
                 else
                 {
+                    MissionText.text = "";
                     missCount++;
                     AnswerStr = "";
                     MorseStr = "";
                 }
+                colorFlag = true;
             }  
         }
         if (!isCoding)
         {
             Sentence1Text.text = "";
+            MissionText.text = "";
             TargetText.text = "";
             MorseText.text = "";
             TimeText1.text = "0";
@@ -251,10 +356,10 @@ public class MorsecodeController : MonoBehaviour
             TimeText3.text = "0";
             TimeText4.text = "0";
         }
-        if (i > 15)
+        if (i > 17)
         {
             Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
-            flowchart.ExecuteBlock("D14");
+            flowchart.ExecuteBlock("D16");
         }
     }
     
@@ -282,6 +387,7 @@ public class MorsecodeController : MonoBehaviour
     }
     private void Miss()
     {
+
         if (missCount == 0 && Pulse.isPlaying)
         {
             Pulse.Stop();
@@ -313,6 +419,9 @@ public class MorsecodeController : MonoBehaviour
         }
         if (missCount == 2 && Pulse.isPlaying)
         {
+            Sentence1Text.text = "";
+            TargetText.text = "";
+            Blood.transform.localScale = new Vector3(1.9f, 0, 1f);
             colorG = 1f;
             colorB = 1f;
             isExcute = false;
@@ -320,7 +429,7 @@ public class MorsecodeController : MonoBehaviour
             Pulse.Stop();
             Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
             flowchart.ExecuteBlock("Fail");
-            missCount = 0;
+            
             if (storyCount < 4)
             {
                 storyCount = 0;
@@ -342,6 +451,5 @@ public class MorsecodeController : MonoBehaviour
                 storyCount = 12;
             }
         }
-
     }
 }

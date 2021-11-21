@@ -229,7 +229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 590.4, y: 410}
+  m_AnchoredPosition: {x: 637.2752, y: 410}
   m_SizeDelta: {x: 202.9422, y: 72.9422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143240467
@@ -304,11 +304,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 385834954}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 40.196, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 202, y: -136}
+  m_AnchoredPosition: {x: 259.6474, y: -136}
   m_SizeDelta: {x: 318.77, y: 84.1307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &167861685
@@ -433,7 +433,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &174304559
 GameObject:
@@ -469,8 +469,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 1.47, y: 2.08, z: 0.929}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -185.5, y: -17.750015}
-  m_SizeDelta: {x: 286.69, y: 406.0429}
+  m_AnchoredPosition: {x: -325.33676, y: -29.5531}
+  m_SizeDelta: {x: 517.652, y: 805.623}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &174304561
 MonoBehaviour:
@@ -494,7 +494,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a4d0b37053ca6584981709aec451cc2f, type: 3}
-    m_FontSize: 20
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -505,7 +505,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1950\u5E7412\u67082\u65E5\r\n\u5728\u9EA6\u514B\u963F\u745F\u72C2\u5984\u5730\u8BF4\u4EC0\u4E48\u201C\u5723\u8BDE\u8282\u524D\u7ED3\u675F\u6218\u6597\u201D\u4E4B\u540E\uFF0C\u53CD\u800C\u6FC0\u53D1\u4E86\u5927\u5BB6\u7684\u6218\u6597\u610F\u5FD7\uFF0C\u5C24\u5176\u662F\u8FDE\u957F\u3002\u5144\u5F1F\u90E8\u961F\u6377\u62A5\u9891\u4F20\uFF0C\u60F3\u5FC5\u5168\u519B\u7684\u5FC3\u60C5\u90FD\u662F\u7C7B\u4F3C\u7684\u5427\u3002\u8FD9\u6B21\u6765\u5F02\u56FD\u4ED6\u4E61\u62FC\u547D\uFF0C\u5B9E\u9645\u4E0A\u4E5F\u662F\u4E3A\u4E86\u54B1\u4EEC\u81EA\u5DF1\u56FD\u5BB6\u7684\u5B89\u5371\uFF0C\u5927\u5BB6\u90FD\u94C6\u8DB3\u4E86\u52B2\uFF0C\u4E5F\u662F\u4E00\u79CD\u4FDD\u5BB6\u536B\u56FD\u3002\n\u7CAE\u98DF\u4E0D\u591A\u4E86\u3002\u65E9\u996D\u540E\uFF0C\u5927\u5BB6\u8DD1\u5230\u5C71\u4E0A\u53BB\u6316\u91CE\u83DC\uFF0C\u4EFB\u51ED\u5F2F\u5F97\u8170\u76F4\u4E0D"
+  m_Text: "1950\u5E7412\u67082\u65E5\r\n\u5728\u9EA6\u514B\u963F\u745F\u72C2\u5984\u5730\u8BF4\u4EC0\u4E48\u201C\u5723\u8BDE\u8282\u524D\u7ED3\u675F\u6218\u6597\u201D\u4E4B\u540E\uFF0C\u53CD\u800C\u6FC0\u53D1\u4E86\u5927\u5BB6\u7684\u6218\u6597\u610F\u5FD7\uFF0C\u5C24\u5176\u662F\u8FDE\u957F\u3002\u5144\u5F1F\u90E8\u961F\u6377\u62A5\u9891\u4F20\uFF0C\u60F3\u5FC5\u5168\u519B\u7684\u5FC3\u60C5\u90FD\u662F\u7C7B\u4F3C\u7684\u5427\u3002\u8FD9\u6B21\u6765\u5F02\u56FD\u4ED6\u4E61\u62FC\u547D\uFF0C\u5B9E\u9645\u4E0A\u4E5F\u662F\u4E3A\u4E86\u54B1\u4EEC\u81EA\u5DF1\u56FD\u5BB6\u7684\u5B89\u5371\uFF0C\u5927\u5BB6\u90FD\u94C6\u8DB3\u4E86\u52B2\uFF0C\u4E5F\u662F\u4E00\u79CD\u4FDD\u5BB6\u536B\u56FD\u3002\n\u7CAE\u98DF\u4E0D\u591A\u4E86\u3002\u65E9\u996D\u540E\uFF0C\u5927\u5BB6\u8DD1\u5230\u5C71\u4E0A\u53BB\u6316\u91CE\u83DC\uFF0C\u4EFB\u51ED\u5F2F\u5F97\u8170"
 --- !u!222 &174304562
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -544,11 +544,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 385834954}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 26.053, y: 2.45, z: 0.353}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -878.01056, y: -304.88577}
+  m_AnchoredPosition: {x: -818.0867, y: -304.88577}
   m_SizeDelta: {x: 243.582, y: 334.251}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &210482205
@@ -632,7 +632,7 @@ Transform:
   - {fileID: 1968767358}
   - {fileID: 1732830803}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &299214129
 GameObject:
@@ -715,7 +715,7 @@ Transform:
   m_Children:
   - {fileID: 1563547576}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &358441539
 GameObject:
@@ -749,7 +749,7 @@ Transform:
   - {fileID: 1815584}
   - {fileID: 1896776650}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &371599468
 GameObject:
@@ -785,7 +785,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 40, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 295, y: -249}
+  m_AnchoredPosition: {x: 352.6474, y: -249}
   m_SizeDelta: {x: 318.77, y: 79.8295}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &371599470
@@ -871,10 +871,9 @@ RectTransform:
   - {fileID: 143240466}
   - {fileID: 784830229}
   - {fileID: 1710161805}
+  - {fileID: 167861684}
   - {fileID: 210482204}
   - {fileID: 2063832623}
-  - {fileID: 167861684}
-  - {fileID: 1729617953}
   m_Father: {fileID: 622322533}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1111,8 +1110,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -1198, y: 731}
-  m_SizeDelta: {x: 1009.109, y: 349}
+  m_AnchoredPosition: {x: -1170.0503, y: 731}
+  m_SizeDelta: {x: 1069.542, y: 349}
   m_Pivot: {x: 0, y: 0}
 --- !u!1001 &445381635
 PrefabInstance:
@@ -1189,7 +1188,7 @@ PrefabInstance:
     - target: {fileID: 7496776670342869167, guid: 279e785932457554aa5ea68aae3869bd,
         type: 3}
       propertyPath: PlayTime
-      value: 15
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 279e785932457554aa5ea68aae3869bd, type: 3}
@@ -1331,10 +1330,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2340, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1591,7 +1590,7 @@ PrefabInstance:
     - target: {fileID: 138025756899621131, guid: 7afc353a627f5584d8f7106cdeacf0f5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 138025756899621131, guid: 7afc353a627f5584d8f7106cdeacf0f5,
         type: 3}
@@ -1718,7 +1717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: -1.277008, y: 6.7335052}
+  m_AnchoredPosition: {x: -1.2769775, y: 6.7335052}
   m_SizeDelta: {x: -69.554, y: -77.793}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &630372238
@@ -1808,35 +1807,27 @@ GameObject:
   - component: {fileID: 652257465}
   - component: {fileID: 652257464}
   - component: {fileID: 652257463}
-  - component: {fileID: 652257451}
   - component: {fileID: 652257459}
   - component: {fileID: 652257458}
   - component: {fileID: 652257457}
   - component: {fileID: 652257477}
   - component: {fileID: 652257476}
   - component: {fileID: 652257475}
-  - component: {fileID: 652257474}
   - component: {fileID: 652257455}
   - component: {fileID: 652257473}
   - component: {fileID: 652257472}
   - component: {fileID: 652257471}
   - component: {fileID: 652257470}
   - component: {fileID: 652257469}
-  - component: {fileID: 652257461}
   - component: {fileID: 652257486}
   - component: {fileID: 652257485}
   - component: {fileID: 652257484}
-  - component: {fileID: 652257481}
   - component: {fileID: 652257480}
   - component: {fileID: 652257479}
   - component: {fileID: 652257478}
   - component: {fileID: 652257468}
   - component: {fileID: 652257467}
-  - component: {fileID: 652257462}
   - component: {fileID: 652257493}
-  - component: {fileID: 652257492}
-  - component: {fileID: 652257491}
-  - component: {fileID: 652257490}
   - component: {fileID: 652257488}
   - component: {fileID: 652257487}
   - component: {fileID: 652257482}
@@ -1850,7 +1841,6 @@ GameObject:
   - component: {fileID: 652257528}
   - component: {fileID: 652257527}
   - component: {fileID: 652257526}
-  - component: {fileID: 652257525}
   - component: {fileID: 652257523}
   - component: {fileID: 652257529}
   - component: {fileID: 652257530}
@@ -1862,7 +1852,6 @@ GameObject:
   - component: {fileID: 652257549}
   - component: {fileID: 652257548}
   - component: {fileID: 652257547}
-  - component: {fileID: 652257546}
   - component: {fileID: 652257545}
   - component: {fileID: 652257544}
   - component: {fileID: 652257543}
@@ -1885,7 +1874,6 @@ GameObject:
   - component: {fileID: 652257554}
   - component: {fileID: 652257553}
   - component: {fileID: 652257552}
-  - component: {fileID: 652257551}
   - component: {fileID: 652257550}
   - component: {fileID: 652257519}
   - component: {fileID: 652257518}
@@ -1903,7 +1891,6 @@ GameObject:
   - component: {fileID: 652257496}
   - component: {fileID: 652257495}
   - component: {fileID: 652257494}
-  - component: {fileID: 652257569}
   - component: {fileID: 652257429}
   - component: {fileID: 652257572}
   - component: {fileID: 652257571}
@@ -1916,18 +1903,13 @@ GameObject:
   - component: {fileID: 652257448}
   - component: {fileID: 652257447}
   - component: {fileID: 652257446}
-  - component: {fileID: 652257445}
-  - component: {fileID: 652257444}
   - component: {fileID: 652257438}
-  - component: {fileID: 652257578}
   - component: {fileID: 652257577}
   - component: {fileID: 652257576}
   - component: {fileID: 652257575}
   - component: {fileID: 652257574}
   - component: {fileID: 652257573}
-  - component: {fileID: 652257566}
   - component: {fileID: 652257531}
-  - component: {fileID: 652257509}
   - component: {fileID: 652257508}
   - component: {fileID: 652257507}
   - component: {fileID: 652257506}
@@ -1939,13 +1921,9 @@ GameObject:
   - component: {fileID: 652257454}
   - component: {fileID: 652257453}
   - component: {fileID: 652257452}
-  - component: {fileID: 652257450}
   - component: {fileID: 652257586}
-  - component: {fileID: 652257585}
   - component: {fileID: 652257584}
-  - component: {fileID: 652257583}
   - component: {fileID: 652257582}
-  - component: {fileID: 652257581}
   - component: {fileID: 652257579}
   - component: {fileID: 652257592}
   - component: {fileID: 652257591}
@@ -1956,7 +1934,28 @@ GameObject:
   - component: {fileID: 652257580}
   - component: {fileID: 652257524}
   - component: {fileID: 652257594}
-  - component: {fileID: 652257593}
+  - component: {fileID: 652257546}
+  - component: {fileID: 652257444}
+  - component: {fileID: 652257566}
+  - component: {fileID: 652257551}
+  - component: {fileID: 652257509}
+  - component: {fileID: 652257481}
+  - component: {fileID: 652257474}
+  - component: {fileID: 652257462}
+  - component: {fileID: 652257461}
+  - component: {fileID: 652257451}
+  - component: {fileID: 652257450}
+  - component: {fileID: 652257445}
+  - component: {fileID: 652257597}
+  - component: {fileID: 652257596}
+  - component: {fileID: 652257595}
+  - component: {fileID: 652257578}
+  - component: {fileID: 652257569}
+  - component: {fileID: 652257492}
+  - component: {fileID: 652257491}
+  - component: {fileID: 652257490}
+  - component: {fileID: 652257598}
+  - component: {fileID: 652257525}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2022,9 +2021,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 98.86851
-    y: 45.68821
-    width: 66.326515
+    x: 97.55272
+    y: 29.89875
+    width: 65.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2036,7 +2035,6 @@ MonoBehaviour:
   - {fileID: 652257497}
   - {fileID: 652257430}
   - {fileID: 652257429}
-  - {fileID: 652257569}
   suppressAllAutoSelections: 0
 --- !u!114 &652257432
 MonoBehaviour:
@@ -2051,11 +2049,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 384.53625, y: 249.50215}
+  scrollPos: {x: 164.48935, y: 168.98367}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 270
-  zoom: 0.49000046
+  blockViewHeight: 400
+  zoom: 0.7000003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2063,8 +2061,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 652257588}
-  selectedCommands: []
+  - {fileID: 652257520}
+  selectedCommands:
+  - {fileID: 652257525}
   variables: []
   description: 
   stepPause: 0
@@ -2088,7 +2087,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &652257434
 MonoBehaviour:
@@ -2268,7 +2267,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 100.4349
     y: 86.130135
-    width: 66.326515
+    width: 65.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2382,25 +2381,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 228
+  itemId: 273
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257445
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2410,25 +2398,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 227
+  itemId: 283
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257446
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2540,25 +2517,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 252
+  itemId: 282
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257451
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2568,25 +2534,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 35
+  itemId: 281
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257452
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2791,8 +2746,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 187.03206
-    y: 41.07039
-    width: 66.326515
+    y: 39.029575
+    width: 65.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2805,7 +2760,7 @@ MonoBehaviour:
   - {fileID: 652257457}
   - {fileID: 652257455}
   - {fileID: 652257584}
-  - {fileID: 652257578}
+  - {fileID: 652257509}
   suppressAllAutoSelections: 0
 --- !u!114 &652257460
 MonoBehaviour:
@@ -2843,25 +2798,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 72
+  itemId: 280
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257462
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2871,25 +2815,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 84
+  itemId: 279
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257463
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2988,7 +2921,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 95.64515
     y: 182.12256
-    width: 66.326515
+    width: 65.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3004,7 +2937,8 @@ MonoBehaviour:
   - {fileID: 652257464}
   - {fileID: 652257549}
   - {fileID: 652257463}
-  - {fileID: 652257451}
+  - {fileID: 652257546}
+  - {fileID: 652257566}
   suppressAllAutoSelections: 0
 --- !u!114 &652257467
 MonoBehaviour:
@@ -3183,8 +3117,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 188.18039
-    y: 143.30757
-    width: 66.326515
+    y: 143.1948
+    width: 65.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3202,7 +3136,7 @@ MonoBehaviour:
   - {fileID: 652257542}
   - {fileID: 652257541}
   - {fileID: 652257538}
-  - {fileID: 652257461}
+  - {fileID: 652257474}
   suppressAllAutoSelections: 0
 --- !u!114 &652257474
 MonoBehaviour:
@@ -3213,25 +3147,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 46
+  itemId: 278
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257475
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3302,7 +3225,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 92.17568
     y: 234.77808
-    width: 66.326515
+    width: 65.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3313,10 +3236,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 652257476}
   - {fileID: 652257544}
-  - {fileID: 652257546}
   - {fileID: 652257545}
   - {fileID: 652257475}
-  - {fileID: 652257474}
+  - {fileID: 652257551}
   suppressAllAutoSelections: 0
 --- !u!114 &652257478
 MonoBehaviour:
@@ -3386,9 +3308,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 190.30865
-    y: 190.6868
-    width: 66.326515
+    x: 192.94025
+    y: 192.0026
+    width: 65.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3413,25 +3335,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 78
+  itemId: 277
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257482
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3554,9 +3465,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 188.82848
+    x: 193.22697
     y: 236.80852
-    width: 66.326515
+    width: 65.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3567,7 +3478,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 652257485}
   - {fileID: 652257484}
-  - {fileID: 652257481}
+  - {fileID: 652257461}
   suppressAllAutoSelections: 0
 --- !u!114 &652257487
 MonoBehaviour:
@@ -3659,24 +3570,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 93
+  itemId: 296
   indentLevel: 0
-  storyText: "\u4E00\u639232\u540D\u540C\u5FD7\uFF0C\u5168\u90E8\u727A\u7272\u3002"
-  description: 
-  character: {fileID: 1522192753}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: 8f552f5642e080b42bf63089612dffdb, type: 3}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  control: 3
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 620623027}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 2
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
 --- !u!114 &652257491
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3686,24 +3593,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 92
+  itemId: 295
   indentLevel: 0
-  storyText: "\u600E\u4E48\u4E86\uFF01\uFF1F\u4ED6\u4EEC\u600E\u4E48\u4E86\uFF1F\u5FEB\u8BF4\uFF01"
-  description: 
-  character: {fileID: 652779615}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 8300000, guid: ea3426da413297f48bb8b22cf3b193f7, type: 3}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetObject: {fileID: 1324946223}
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257492
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3716,13 +3613,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 91
+  itemId: 294
   indentLevel: 0
-  storyText: "\u62A5\u544A\uFF01\u4E00\u6392\u3001\u4E00\u6392\u7684\u540C\u5FD7\u4EEC\u2026\u2026"
+  storyText: "\u4E00\u639232\u540D\u540C\u5FD7\uFF0C\u5168\u90E8\u727A\u7272\u3002"
   description: 
   character: {fileID: 1522192753}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: 8f552f5642e080b42bf63089612dffdb, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3745,19 +3642,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 264.0215
+    x: 276.0892
     y: 40.431545
-    width: 72.857124
+    width: 72.85713
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 112
-  blockName: D10
+  blockName: D12
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 652257492}
-  - {fileID: 652257491}
   - {fileID: 652257490}
   - {fileID: 652257488}
   - {fileID: 652257567}
@@ -3767,7 +3662,7 @@ MonoBehaviour:
   - {fileID: 652257511}
   - {fileID: 652257510}
   - {fileID: 652257582}
-  - {fileID: 652257509}
+  - {fileID: 652257451}
   suppressAllAutoSelections: 0
 --- !u!114 &652257494
 MonoBehaviour:
@@ -3879,7 +3774,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 17
+    floatVal: 20
   durationOLD: 0
 --- !u!114 &652257500
 MonoBehaviour:
@@ -4087,16 +3982,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 270.60144
     y: 95.38652
-    width: 72.857124
+    width: 72.85713
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 241
-  blockName: D11
+  blockName: D13
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 652257581}
   - {fileID: 652257507}
   - {fileID: 652257506}
   - {fileID: 652257505}
@@ -4118,25 +4012,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 240
+  itemId: 276
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257510
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4232,14 +4115,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 272.53192
-    y: 232.83578
-    width: 72.857124
+    x: 275.389
+    y: 235.69293
+    width: 72.85713
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 202
-  blockName: D14
+  blockName: D16
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -4408,9 +4291,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -12.464465
-    y: 119.185326
-    width: 69.59182
+    x: 441.2571
+    y: 140.23799
+    width: 69.428566
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4419,6 +4302,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 652257598}
   - {fileID: 652257529}
   - {fileID: 652257522}
   - {fileID: 652257528}
@@ -4494,7 +4378,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &652257524
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4509,32 +4393,21 @@ MonoBehaviour:
   targetButton: {fileID: 1781520640}
 --- !u!114 &652257525
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 134
+  itemId: 300
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetMissCount
-  targetMethodText: 'SetMissCount (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetMissCount
+  delay: 0
 --- !u!114 &652257526
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4620,7 +4493,7 @@ MonoBehaviour:
   fadeMode: 0
   targetColor:
     colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
+    colorVal: {r: 1, g: 1, b: 1, a: 0}
   targetAlpha:
     floatRef: {fileID: 0}
     floatVal: 0
@@ -4879,7 +4752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 161
   indentLevel: 0
-  control: 0
+  control: 1
   _audioSource:
     audioSourceRef: {fileID: 0}
     audioSourceVal: {fileID: 620623027}
@@ -4984,15 +4857,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 155
+  itemId: 272
   indentLevel: 0
-  control: 3
+  control: 0
   _audioSource:
     audioSourceRef: {fileID: 0}
     audioSourceVal: {fileID: 1780615462}
   startVolume: 1
-  endVolume: 1
-  fadeDuration: 2
+  endVolume: 0.8
+  fadeDuration: 0
   waitUntilFinished: 0
   audioSourceOLD: {fileID: 0}
 --- !u!114 &652257547
@@ -5032,12 +4905,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  control: 1
+  control: 0
   _audioSource:
     audioSourceRef: {fileID: 0}
     audioSourceVal: {fileID: 1780615462}
   startVolume: 1
-  endVolume: 1
+  endVolume: 0.8
   fadeDuration: 0
   waitUntilFinished: 0
   audioSourceOLD: {fileID: 0}
@@ -5088,25 +4961,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 192
+  itemId: 275
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257552
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5306,14 +5168,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 273.26456
+    x: 274.58035
     y: 141.63945
-    width: 72.857124
+    width: 72.85713
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 184
-  blockName: D12
+  blockName: D14
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5324,7 +5186,7 @@ MonoBehaviour:
   - {fileID: 652257554}
   - {fileID: 652257553}
   - {fileID: 652257552}
-  - {fileID: 652257551}
+  - {fileID: 652257445}
   suppressAllAutoSelections: 0
 --- !u!114 &652257560
 MonoBehaviour:
@@ -5475,14 +5337,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 274.58813
+    x: 276.0167
     y: 183.6199
-    width: 72.857124
+    width: 72.85713
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 166
-  blockName: D13
+  blockName: D15
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -5508,25 +5370,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 236
+  itemId: 274
   indentLevel: 0
-  description: 
   targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  methodName: SetisCoding
+  delay: 0
 --- !u!114 &652257567
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5576,25 +5427,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 214
+  itemId: 293
   indentLevel: 0
+  storyText: "\u600E\u4E48\u4E86\uFF01\uFF1F\u4ED6\u4EEC\u600E\u4E48\u4E86\uFF1F\u5FEB\u8BF4\uFF01"
   description: 
-  targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  character: {fileID: 652779615}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: ea3426da413297f48bb8b22cf3b193f7, type: 3}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &652257570
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5659,9 +5509,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 99.15649
-    y: 139.15596
-    width: 66.326515
+    x: 97.72791
+    y: 137.84016
+    width: 65.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5670,11 +5520,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 652257585}
   - {fileID: 652257438}
   - {fileID: 652257571}
   - {fileID: 652257570}
-  - {fileID: 652257568}
   - {fileID: 652257536}
   - {fileID: 652257532}
   - {fileID: 652257460}
@@ -5682,7 +5530,7 @@ MonoBehaviour:
   - {fileID: 652257448}
   - {fileID: 652257447}
   - {fileID: 652257446}
-  - {fileID: 652257445}
+  - {fileID: 652257568}
   suppressAllAutoSelections: 0
 --- !u!114 &652257573
 MonoBehaviour:
@@ -5806,9 +5654,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 185.12021
-    y: 93.30099
-    width: 66.326515
+    x: 186.436
+    y: 91.26017
+    width: 65.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5817,13 +5665,12 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 652257583}
   - {fileID: 652257531}
   - {fileID: 652257576}
   - {fileID: 652257575}
   - {fileID: 652257574}
   - {fileID: 652257573}
-  - {fileID: 652257566}
+  - {fileID: 652257481}
   suppressAllAutoSelections: 0
 --- !u!114 &652257578
 MonoBehaviour:
@@ -5834,25 +5681,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 652257428}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 230
+  itemId: 292
   indentLevel: 0
+  storyText: "\u62A5\u544A\uFF01\u4E00\u6392\u3001\u4E00\u6392\u7684\u540C\u5FD7\u4EEC\u2026\u2026"
   description: 
-  targetObject: {fileID: 1324946223}
-  targetComponentAssemblyName: MorsecodeController, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: MorsecodeController
-  targetMethod: SetisCoding
-  targetMethodText: 'SetisCoding (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
+  character: {fileID: 1522192753}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &652257579
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5873,7 +5719,7 @@ MonoBehaviour:
   fadeDuration: 0
 --- !u!114 &652257580
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5892,29 +5738,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &652257581
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652257428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 261
-  indentLevel: 0
-  control: 3
-  _audioSource:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 1732830804}
-  startVolume: 1
-  endVolume: 1
-  fadeDuration: 0
-  waitUntilFinished: 0
-  audioSourceOLD: {fileID: 0}
 --- !u!114 &652257582
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5929,33 +5752,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 260
   indentLevel: 0
-  control: 1
+  control: 0
   _audioSource:
     audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 1968767359}
-  startVolume: 1
-  endVolume: 1
-  fadeDuration: 0
-  waitUntilFinished: 0
-  audioSourceOLD: {fileID: 0}
---- !u!114 &652257583
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652257428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 259
-  indentLevel: 0
-  control: 3
-  _audioSource:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 852916096}
+    audioSourceVal: {fileID: 1732830804}
   startVolume: 1
   endVolume: 1
   fadeDuration: 0
@@ -5975,33 +5775,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 258
   indentLevel: 0
-  control: 1
+  control: 0
   _audioSource:
     audioSourceRef: {fileID: 0}
     audioSourceVal: {fileID: 852916096}
-  startVolume: 1
-  endVolume: 1
-  fadeDuration: 0
-  waitUntilFinished: 0
-  audioSourceOLD: {fileID: 0}
---- !u!114 &652257585
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652257428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 257
-  indentLevel: 0
-  control: 3
-  _audioSource:
-    audioSourceRef: {fileID: 0}
-    audioSourceVal: {fileID: 1968767359}
   startVolume: 1
   endVolume: 1
   fadeDuration: 0
@@ -6032,7 +5809,7 @@ MonoBehaviour:
   audioSourceOLD: {fileID: 0}
 --- !u!114 &652257587
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6062,7 +5839,7 @@ MonoBehaviour:
     floatVal: 1
 --- !u!114 &652257588
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6074,9 +5851,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 604.3402
-    y: 161.1097
-    width: 113.673416
+    x: 630.65607
+    y: 196.636
+    width: 112.85712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6087,7 +5864,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 652257587}
   - {fileID: 652257594}
-  - {fileID: 652257593}
   - {fileID: 652257580}
   suppressAllAutoSelections: 0
 --- !u!114 &652257589
@@ -6172,7 +5948,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 608.02966
     y: 90.049255
-    width: 112.04076
+    width: 112.85712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6184,39 +5960,9 @@ MonoBehaviour:
   - {fileID: 652257590}
   - {fileID: 652257589}
   suppressAllAutoSelections: 0
---- !u!114 &652257593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652257428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6dd8d3a780f4d1ea772e3daf10c372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 271
-  indentLevel: 0
-  targetObjects:
-  - {fileID: 1729617952}
-  tweenType: 2
-  waitUntilFinished:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  duration:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeMode: 0
-  targetColor:
-    colorRef: {fileID: 0}
-    colorVal: {r: 1, g: 1, b: 1, a: 1}
-  targetAlpha:
-    floatRef: {fileID: 0}
-    floatVal: 0
 --- !u!114 &652257594
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6244,6 +5990,103 @@ MonoBehaviour:
   targetAlpha:
     floatRef: {fileID: 0}
     floatVal: 0.2
+--- !u!114 &652257595
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 273.9395
+    y: -10.412311
+    width: 72.85713
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 298
+  blockName: D11
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 652257578}
+  - {fileID: 652257569}
+  - {fileID: 652257492}
+  - {fileID: 652257491}
+  suppressAllAutoSelections: 0
+--- !u!114 &652257596
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 287
+  indentLevel: 0
+  targetObject: {fileID: 1324946223}
+  methodName: SetisCoding
+  delay: 0
+--- !u!114 &652257597
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 186.79645
+    y: 282.44473
+    width: 72.85713
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 297
+  blockName: D10
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 652257596}
+  suppressAllAutoSelections: 0
+--- !u!114 &652257598
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 299
+  indentLevel: 0
+  control: 3
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 620623027}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
 --- !u!1 &652779613
 GameObject:
   m_ObjectHideFlags: 0
@@ -6329,7 +6172,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 111.33, y: -97.952}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1006.4, y: 238.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &784830230
@@ -6524,7 +6367,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 821, y: -295}
+  m_AnchoredPosition: {x: 874.3596, y: -295}
   m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &985236418
@@ -6730,11 +6573,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012244728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0296, y: -0.001, z: 0}
+  m_LocalPosition: {x: -0.5, y: -0.001, z: 0}
   m_LocalScale: {x: 1.9, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1013359116
 GameObject:
@@ -7061,7 +6904,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1018426378
 MonoBehaviour:
@@ -7123,7 +6966,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 40.196, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 296, y: -193}
+  m_AnchoredPosition: {x: 353.6474, y: -193}
   m_SizeDelta: {x: 318.77, y: 84.1307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1032488174
@@ -7318,7 +7161,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1093625783}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.5, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7437,7 +7280,7 @@ Transform:
   m_Children:
   - {fileID: 553868680}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1232796928
 GameObject:
@@ -7631,6 +7474,7 @@ MonoBehaviour:
   Up: {fileID: 1944220746}
   missCount: 0
   Blood: {fileID: 1012244728}
+  i: 0
   Sentence1Text: {fileID: 371599470}
   TargetText: {fileID: 1032488174}
   MorseComeText: {fileID: 1922293952}
@@ -7731,7 +7575,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 84d3086908fbf834091e4dcfe79ef197, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.025
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -8260,6 +8104,106 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1581139781
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1581139782}
+  - component: {fileID: 1581139785}
+  - component: {fileID: 1581139784}
+  - component: {fileID: 1581139783}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1581139782
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581139781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1729617953}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1581139783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581139781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1581139784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581139781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 3240, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1581139785
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581139781}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &1583863832
 GameObject:
   m_ObjectHideFlags: 0
@@ -8294,7 +8238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 716.3, y: 409.99994}
+  m_AnchoredPosition: {x: 772.8345, y: 409.99994}
   m_SizeDelta: {x: 202.9422, y: 72.9422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1583863834
@@ -8330,7 +8274,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 0
 --- !u!222 &1583863835
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8380,7 +8324,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1637457228
 GameObject:
@@ -8416,7 +8360,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 672.7, y: 409.9999}
+  m_AnchoredPosition: {x: 727.2518, y: 409.9999}
   m_SizeDelta: {x: 202.9422, y: 72.9422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1637457230
@@ -8452,7 +8396,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 0
 --- !u!222 &1637457231
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8496,7 +8440,7 @@ Transform:
   - {fileID: 1538273038}
   - {fileID: 1522192752}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1673714441
 GameObject:
@@ -8583,7 +8527,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1023, y: -297}
+  m_AnchoredPosition: {x: 1058.7622, y: -297}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1710161806
@@ -8760,7 +8704,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1729617952
 GameObject:
@@ -8788,17 +8732,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729617952}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -4.6598024}
+  m_LocalScale: {x: 0.46598026, y: 0.46598026, z: 0.46598026}
   m_Children: []
-  m_Father: {fileID: 385834954}
-  m_RootOrder: 14
+  m_Father: {fileID: 1581139782}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -689.7944, y: -295.8904}
-  m_SizeDelta: {x: 700, y: 400}
+  m_AnchoredPosition: {x: -832.65393, y: -348.0191}
+  m_SizeDelta: {x: 1913.55, y: 859.569}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1729617954
 MonoBehaviour:
@@ -9116,8 +9060,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1156.5, y: 520}
+  m_AnchoredPosition: {x: -0.010071, y: -0.0032806}
+  m_SizeDelta: {x: 2340, y: 1053.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1781520640
 MonoBehaviour:
@@ -9458,7 +9402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 772.05, y: 259}
+  m_AnchoredPosition: {x: 816.34534, y: 259}
   m_SizeDelta: {x: 403.05, y: 86.373}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1922293952
@@ -9583,7 +9527,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1944220746
 GameObject:
@@ -9665,7 +9609,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1968767357
 PrefabInstance:
@@ -9792,8 +9736,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 5.466, y: 0, z: 2.108}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 189.49992, y: -12.750015}
-  m_SizeDelta: {x: 286.69, y: 406.0429}
+  m_AnchoredPosition: {x: 450.6218, y: -43.69818}
+  m_SizeDelta: {x: 540.664, y: 825.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1991775749
 MonoBehaviour:
@@ -9817,7 +9761,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a4d0b37053ca6584981709aec451cc2f, type: 3}
-    m_FontSize: 20
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -9828,7 +9772,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u8D77\u6765\u3001\u773C\u775B\u4E5F\u770B\u82B1\u4E86\uFF0C\u50CF\u725B\u6BDB\u4E00\u6837\u7684\u91CE\u83DC\u8FD8\u662F\u627E\u4E0D\u5230\uFF0C\u627E\u4E86\u4E00\u4E2A\u591A\u5C0F\u65F6\u540E\uFF0C\u4E03\u516B\u4E2A\u4EBA\u51D1\u4E86\u4E00\u5C0F\u628A\uFF0C\u80FD\u591F\u6BCF\u4EBA\u4E00\u53E3\u5403\u7684\u4E86\u3002\r\n\u6628\u591C\u68A6\u89C1\u81EA\u5DF1\u6210\u4E86\u5171\u4EA7\u515A\u5458\uFF0C\u5174\u594B\u6781\u4E86\uFF0C\u9192\u4E86\u8FD8\u662F\u7A7A\u7A7A\u6D1E\u6D1E\u6CA1\u90A3\u4E48\u56DE\u4E8B\u513F\uFF0C\u5C3D\u4E00\u5207\u52AA\u529B\u6765\u4FC3\u6210\u81EA\u5DF1\u7406\u60F3\u5B9E\u73B0\u5427\u3002\r\n\u5E0C\u671B\u6218\u4E89\u80FD\u65E9\u65E5\u7ED3\u675F\u3002\u4F46\u5728\u90A3\u4E4B\u524D\uFF0C\u6211\u4EEC\u4ECD\u662F\u4E00\u5929\u4E00\u523B\u90FD\u4E0D\u53EF\u653E\u677E\u7684\u3002"
+  m_Text: "\u76F4\u4E0D\u8D77\u6765\u3001\u773C\u775B\u4E5F\u770B\u82B1\u4E86\uFF0C\u50CF\u725B\u6BDB\u4E00\u6837\u7684\u91CE\u83DC\u8FD8\u662F\u627E\u4E0D\u5230\uFF0C\u627E\u4E86\u4E00\u4E2A\u591A\u5C0F\u65F6\u540E\uFF0C\u4E03\u516B\u4E2A\u4EBA\u51D1\u4E86\u4E00\u5C0F\u628A\uFF0C\u80FD\u591F\u6BCF\u4EBA\u4E00\u53E3\u5403\u7684\u4E86\u3002\r\n\u6628\u591C\u68A6\u89C1\u81EA\u5DF1\u6210\u4E86\u5171\u4EA7\u515A\u5458\uFF0C\u5174\u594B\u6781\u4E86\uFF0C\u9192\u4E86\u8FD8\u662F\u7A7A\u7A7A\u6D1E\u6D1E\u6CA1\u90A3\u4E48\u56DE\u4E8B\u513F\uFF0C\u5C3D\u4E00\u5207\u52AA\u529B\u6765\u4FC3\u6210\u81EA\u5DF1\u7406\u60F3\u5B9E\u73B0\u5427\u3002\r\n\u5E0C\u671B\u6218\u4E89\u80FD\u65E9\u65E5\u7ED3\u675F\u3002\u4F46\u5728\u90A3\u4E4B\u524D\uFF0C\u6211\u4EEC\u4ECD\u662F\u4E00\u5929\u4E00\u523B\u90FD\u4E0D\u53EF\u653E\u677E\u7684\u3002"
 --- !u!222 &1991775750
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9956,7 +9900,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 772.05, y: 163}
+  m_AnchoredPosition: {x: 816.3452, y: 163}
   m_SizeDelta: {x: 403.05, y: 86.373}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2050512450
@@ -10031,11 +9975,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 385834954}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 26.07, y: -3.861, z: 0.63}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -512.99994, y: -282.99966}
+  m_AnchoredPosition: {x: -453.07602, y: -282.99966}
   m_SizeDelta: {x: 243.582, y: 334.251}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2063832624
@@ -10114,7 +10058,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 545, y: 409.99994}
+  m_AnchoredPosition: {x: 591.8752, y: 409.99994}
   m_SizeDelta: {x: 202.9422, y: 72.9422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2142463640

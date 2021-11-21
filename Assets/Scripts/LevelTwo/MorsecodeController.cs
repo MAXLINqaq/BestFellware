@@ -22,21 +22,25 @@ public class MorsecodeController : MonoBehaviour
     public GameObject Blood;
 
     private int i = 0;
-    private int j = 0;
     private float SinvokeTime;
     private string CountDown;
     private int storyCount = 0;
     private bool isExcute = false ;
     private bool isCoding = false ;
-    private bool isComing = false ;
+
     private string BlockStr ;
     private string D = "D";
 
+
+    private float colorG=1;
+    private float  colorB=1;
+    private int flag;
 
     public Text Sentence1Text;
     public Text TargetText;
     public Text MorseComeText;
     public Text MorseText;
+    public Text MissionText;
     public Text TimeText1;
     public Text TimeText2;
     public Text TimeText3;
@@ -55,6 +59,7 @@ public class MorsecodeController : MonoBehaviour
         public float time;
     };
     public Sentence[] sentences;
+
 
 
     private void Update()
@@ -93,10 +98,7 @@ public class MorsecodeController : MonoBehaviour
     {
         isCoding = true ;
     }
-    public void SetisComing()
-    {
-        isComing = true;
-    }
+
     public void SetMissCount()
     {
         missCount = 0;
@@ -134,94 +136,110 @@ public class MorsecodeController : MonoBehaviour
         {
             SinvokeTime += Time.deltaTime;
             if (SinvokeTime > sentences[i].time)
-            {
-                i++;
+            {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
                 missCount++;
                 SinvokeTime = 0;
             }
-            CountDown = Convert.ToString(sentences[i].time - SinvokeTime);
-            TimeText1.text = Convert.ToString(CountDown[0]);
-            TimeText2.text = Convert.ToString(CountDown[1]);
-            //TimeText3.text = Convert.ToString(CountDown[3]);
-            //TimeText4.text = Convert.ToString(CountDown[4]);
-            int CharConut = 0;
-            if (i == 1 || i == 5 || i == 12)
+            if (sentences[i].time > 60)
             {
-                
-                MorseComeText.text = sentences[i].Morse;
-                if (AnswerStr.Length >= sentences[i].Morse.Length)
+                if (sentences[i].time - SinvokeTime > 60)
                 {
-                    if (AnswerStr == sentences[i].Morse)
+                    CountDown = Convert.ToString(sentences[i].time - SinvokeTime - 59);
+                    TimeText1.text = Convert.ToString(CountDown[0]);
+                    TimeText2.text = Convert.ToString(CountDown[1]);
+                    TimeText3.text = "0 ";
+                    TimeText4.text = "1";
+                    if (TimeText2.text == ".")
                     {
-                        missCount = 0;
-                        i++;
-                        SinvokeTime = 0;
-                        AnswerStr = "";
-                        MorseStr = "";
-                        if (storyCount < 10)
-                        {
-                            isExcute = false;
-                            isCoding = false;
-                        }
-                        else
-                        {
-                            isCoding = true;
-                        }
-                        missCount = 0;
-                    }
-                    else
-                    {
-                        missCount++;
-                        AnswerStr = "";
-                        MorseStr = "";
+                        TimeText2.text = TimeText1.text;
+                        TimeText1.text = "0";
                     }
                 }
-                //if (AnswerStr.Length >= sentences[i].Morse.Length)
-                //{
-                //    if (AnswerStr + " " == sentences[i].Morse.Substring(0, AnswerStr.Length))
-                //    {
-
-                //        Sentence1Text.text = sentences[i].words.Substring(0, CharConut);
-                //        TargetText.text = sentences[i].target.Substring(0, CharConut);
-                //        CharConut++;
-                //    }
-                //}
+                else
+                {
+                    CountDown = Convert.ToString(sentences[i].time - SinvokeTime);
+                    TimeText1.text = Convert.ToString(CountDown[0]);
+                    TimeText2.text = Convert.ToString(CountDown[1]);
+                    TimeText3.text = "0 ";
+                    TimeText4.text = "0";
+                    if (TimeText2.text == ".") 
+                    {
+                        TimeText2.text = TimeText1.text;
+                        TimeText1.text = "0";
+                    }
+                }
             }
             else 
             {
-                Sentence1Text.text = sentences[i].words;
-                TargetText.text = sentences[i].target;
-                MorseText.text = MorseStr;
-
-                if (AnswerStr.Length >= sentences[i].Morse.Length)
+                CountDown = Convert.ToString(sentences[i].time - SinvokeTime);
+                TimeText1.text = Convert.ToString(CountDown[0]);
+                TimeText2.text = Convert.ToString(CountDown[1]);
+                TimeText3.text = "0 ";
+                TimeText4.text = "0";
+                if (TimeText2.text == ".")
                 {
-                    if (AnswerStr == sentences[i].Morse)
+                    TimeText2.text = TimeText1.text;
+                    TimeText1.text = "0";
+                }
+            }
+
+            Sentence1Text.text = sentences[i].words;
+            TargetText.text = sentences[i].target;
+            MorseText.text = MorseStr;
+
+            if (i == 1 || i == 5 || i == 12)
+            {
+                if (i == 1)
+                {
+                    MorseComeText.text = "，---，，，--，，-，，";
+                }
+                if (i == 5)
+                {
+                    MorseComeText.text = "--，，-，，，，，-，，，，";
+                }
+                if (i == 12)
+                {
+                    MorseComeText.text = "-，--，--，-，-，--，，-，--";
+                }
+                Sentence1Text.text = "";
+                TargetText.text = "";
+                MissionText.text = "俊辺佚連��";
+            }
+            else
+            {
+                MissionText.text = "窟僕佚連��";
+            }
+
+            if (AnswerStr.Length >= sentences[i].Morse.Length)
+            {
+                if (AnswerStr == sentences[i].Morse)
+                {
+                    Sentence1Text.text = sentences[i].words;
+                    TargetText.text = sentences[i].target;
+                    missCount = 0;
+                    i++;
+                    SinvokeTime = 0;
+                    AnswerStr = "";
+                    MorseStr = "";
+                    if (storyCount < 11)
                     {
-                        missCount = 0;
-                        i++;
-                        SinvokeTime = 0;
-                        AnswerStr = "";
-                        MorseStr = "";
-                        if (storyCount < 10)
-                        {
-                            isExcute = false;
-                            isCoding = false;
-                        }
-                        else
-                        {
-                            isCoding = true;
-                        }
-                        missCount = 0;
+                        isExcute = false;
+                        isCoding = false;
                     }
                     else
                     {
-                        missCount++;
-                        AnswerStr = "";
-                        MorseStr = "";
+                        isCoding = true;
                     }
+                    missCount = 0;
+                    MissionText.text = "";
                 }
-            }
-            
+                else
+                {
+                    missCount++;
+                    AnswerStr = "";
+                    MorseStr = "";
+                }
+            }  
         }
         if (!isCoding)
         {
@@ -230,6 +248,8 @@ public class MorsecodeController : MonoBehaviour
             MorseText.text = "";
             TimeText1.text = "0";
             TimeText2.text = "0";
+            TimeText3.text = "0";
+            TimeText4.text = "0";
         }
         if (i > 15)
         {
@@ -237,19 +257,7 @@ public class MorsecodeController : MonoBehaviour
             flowchart.ExecuteBlock("D14");
         }
     }
-    //private void ReplyController()
-    //{
-    //    if (isComing)
-    //    {
-    //        SinvokeTime += Time.deltaTime;
-    //        if (SinvokeTime > sentencesCome[j].time)
-    //        {
-    //            j++;
-    //            SinvokeTime = 0;
-    //        }
-    //    }
-    //}
-
+    
     private void StoryController()
     {
         if (!isExcute)
@@ -285,8 +293,28 @@ public class MorsecodeController : MonoBehaviour
             Pulse.Play();
             Blood.transform.localScale = new Vector3(1.9f, 2f, 1f);
         }
+        if (missCount == 1)
+        {
+            Blood.GetComponent<SpriteRenderer>().color = new Vector4(1, colorG, colorG, 1);
+            if (colorB >= 1 && colorG >= 1)
+            {
+                flag = -1;
+                colorG = 0;
+                colorB = 0;
+            }
+            if (colorB <= 0 && colorG <= 0)
+            {
+                flag = 1;
+                colorG = 0;
+                colorB = 0;
+            }
+            colorG = Time.deltaTime * flag + colorG;
+            colorB = Time.deltaTime * flag + colorB;
+        }
         if (missCount == 2 && Pulse.isPlaying)
         {
+            colorG = 1f;
+            colorB = 1f;
             isExcute = false;
             isCoding = false;
             Pulse.Stop();

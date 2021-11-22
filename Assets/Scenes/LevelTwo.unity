@@ -2023,7 +2023,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 97.55272
     y: 29.89875
-    width: 65.99999
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2267,7 +2267,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 100.4349
     y: 86.130135
-    width: 65.99999
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2747,7 +2747,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 187.03206
     y: 39.029575
-    width: 65.99999
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2921,7 +2921,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 95.64515
     y: 182.12256
-    width: 65.99999
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3118,7 +3118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 188.18039
     y: 143.1948
-    width: 65.99999
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3225,7 +3225,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 92.17568
     y: 234.77808
-    width: 65.99999
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3310,7 +3310,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 192.94025
     y: 192.0026
-    width: 65.99999
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3467,7 +3467,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 193.22697
     y: 236.80852
-    width: 65.99999
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3644,7 +3644,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 276.0892
     y: 40.431545
-    width: 72.85713
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3982,7 +3982,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 270.60144
     y: 95.38652
-    width: 72.85713
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4117,7 +4117,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 275.389
     y: 235.69293
-    width: 72.85713
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4293,7 +4293,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 441.2571
     y: 140.23799
-    width: 69.428566
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5170,7 +5170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 274.58035
     y: 141.63945
-    width: 72.85713
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5339,7 +5339,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 276.0167
     y: 183.6199
-    width: 72.85713
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5511,7 +5511,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 97.72791
     y: 137.84016
-    width: 65.99999
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5656,7 +5656,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 186.436
     y: 91.26017
-    width: 65.99999
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5853,7 +5853,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 630.65607
     y: 196.636
-    width: 112.85712
+    width: 72.85712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5948,7 +5948,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 608.02966
     y: 90.049255
-    width: 112.85712
+    width: 72.85712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6006,7 +6006,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 273.9395
     y: -10.412311
-    width: 72.85713
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6053,7 +6053,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 186.79645
     y: 282.44473
-    width: 72.85713
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8283,49 +8283,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583863832}
   m_CullTransparentMesh: 1
---- !u!1 &1627246636
+--- !u!1 &1627246636 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7817964515837442926, guid: f45fae9ea378bee419458aabeed3ccdb,
+    type: 3}
+  m_PrefabInstance: {fileID: 7817964515313888066}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1627246638}
-  - component: {fileID: 1627246637}
-  m_Layer: 0
-  m_Name: "\u9707\u52A8"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1627246637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627246636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89ce5380d4f4d354e9d4d3946a71f6c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1627246638
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1627246636}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 591.29504, y: 213.12872, z: -81.28688}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1637457228
 GameObject:
   m_ObjectHideFlags: 0
@@ -10172,3 +10135,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 279e785932457554aa5ea68aae3869bd, type: 3}
+--- !u!1001 &7817964515313888066
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7817964515837442924, guid: f45fae9ea378bee419458aabeed3ccdb,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817964515837442924, guid: f45fae9ea378bee419458aabeed3ccdb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 591.29504
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817964515837442924, guid: f45fae9ea378bee419458aabeed3ccdb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 213.12872
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817964515837442924, guid: f45fae9ea378bee419458aabeed3ccdb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -81.28688
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817964515837442924, guid: f45fae9ea378bee419458aabeed3ccdb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817964515837442924, guid: f45fae9ea378bee419458aabeed3ccdb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817964515837442924, guid: f45fae9ea378bee419458aabeed3ccdb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817964515837442924, guid: f45fae9ea378bee419458aabeed3ccdb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817964515837442924, guid: f45fae9ea378bee419458aabeed3ccdb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817964515837442924, guid: f45fae9ea378bee419458aabeed3ccdb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817964515837442924, guid: f45fae9ea378bee419458aabeed3ccdb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7817964515837442926, guid: f45fae9ea378bee419458aabeed3ccdb,
+        type: 3}
+      propertyPath: m_Name
+      value: "\u9707\u52A8"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f45fae9ea378bee419458aabeed3ccdb, type: 3}

@@ -25,7 +25,6 @@ ScriptsOnlyBuild:
     - Fungus.FungusState
     - Fungus.GameStarted
     - Fungus.InfoText
-    - Fungus.InvokeMethod
     - Fungus.LoadScene
     - Fungus.Localization
     - Fungus.LuaBindings
@@ -200,8 +199,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2040}
     - Class: 114
       Script: {instanceID: 2122}
-    - Class: 114
-      Script: {instanceID: 2170}
     - Class: 114
       Script: {instanceID: 2228}
     - Class: 114
@@ -967,7 +964,7 @@ ScriptsOnlyBuild:
     className: IntegerVariable
   - hash:
       serializedVersion: 2
-      Hash: 78d8ddb7ab84fb110d35be751547b5d1
+      Hash: c1ea3ba47814af8f1602108b5fc3428c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CodeController
@@ -2053,7 +2050,7 @@ ScriptsOnlyBuild:
     className: CinemachineBlendListCamera
   - hash:
       serializedVersion: 2
-      Hash: 1c57489f18948204ec8b67fdd3843a25
+      Hash: 7da5594b5e8eaac6a96bdb2769c45981
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MorsecodeController
@@ -2263,7 +2260,7 @@ ScriptsOnlyBuild:
     className: ChannelMixer
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 0b71ab48151fc8fed380be58f0ebecea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PickLockController
@@ -2881,7 +2878,7 @@ ScriptsOnlyBuild:
     className: FlowchartEnabled
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 5511aafbc0c84bf1440999d883ae2afd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LockCoreController
@@ -3695,6 +3692,12 @@ ScriptsOnlyBuild:
     assemblyName: Fungus.dll
     namespaceName: Fungus
     className: ObjectClicked
+  - hash:
+      serializedVersion: 2
+      Hash: 63231ac1750e6ede960f5e9781313c1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: gyrocope
   platform: 13
   scenePathNames:
   - Assets/Scenes/LevelTwo.unity

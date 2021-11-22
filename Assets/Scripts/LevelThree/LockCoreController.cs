@@ -10,31 +10,44 @@ public class LockCoreController : MonoBehaviour
     public float Mag;
     public GameObject UpperHalf;
     public GameObject LatterHalf;
+    public bool isDone;
+    public AudioSource As;
     private float invokeTime;
    
     void Awake()
     {
         PosPoint.transform.parent = null;
+        isDone = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Mag = (PosPoint.transform.position - UpperHalf.transform.position).magnitude;
-        if (Mag < 0.33)
+        if (!isDone)
         {
-            UpperHalf.GetComponent<SpriteRenderer>().color = new Vector4(1, 1, Mag * 3, 1); ;
-            LatterHalf.GetComponent<SpriteRenderer>().color = new Vector4(1, 1, Mag * 3, 1); ;
-        }
-        if (Mag<0.05)
-        {
-            invokeTime += Time.deltaTime;
-            if (invokeTime > currentTime)
+            Mag = (PosPoint.transform.position - UpperHalf.transform.position).magnitude;
+            if (Mag < 0.33)
             {
-                PickLockController.GetComponent<PickLockController>().UnlockCount++;
+                UpperHalf.GetComponent<SpriteRenderer>().color = new Vector4(1, 1, Mag * 3, 1); 
+                LatterHalf.GetComponent<SpriteRenderer>().color = new Vector4(1, 1, Mag * 3, 1); 
+            }
+            if (Mag < 0.05)
+            {
+                invokeTime += Time.deltaTime;
+                if (invokeTime > currentTime)
+                {
+                    PickLockController.GetComponent<PickLockController>().UnlockCount++;
+                    invokeTime = 0;
+                    UpperHalf.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY|RigidbodyConstraints2D.FreezeRotation;
+                    isDone = true;
+                    LatterHalf.GetComponent<SpriteRenderer>().color = new Vector4(1, 1, 1, 1);
+                    As.Play();
+                }
+            }
+            else
+            {
                 invokeTime = 0;
             }
         }
-        
     }
 }

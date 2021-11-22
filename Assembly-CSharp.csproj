@@ -60,6 +60,7 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\QuickSave\Core\Converters\Vector2Converter.cs" />
+    <Compile Include="Assets\Scripts\LevelThree\CodeController.cs" />
     <Compile Include="Assets\QuickSave\Core\Converters\Vector4Converter.cs" />
     <Compile Include="Assets\QuickSave\QuickSaveSettings.cs" />
     <Compile Include="Assets\QuickSave\QuickSaveReader.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\QuickSave\QuickSaveWriter.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\QuickSave\Core\Settings\Cryptography.cs" />
+    <Compile Include="Assets\Scripts\LevelThree\PickLockController.cs" />
     <Compile Include="Assets\Scripts\DialoguesExecuter.cs" />
     <Compile Include="Assets\QuickSave\Core\Converters\SpriteConverter.cs" />
     <Compile Include="Assets\QuickSave\SecurityMode.cs" />
@@ -88,6 +90,7 @@
     <Compile Include="Assets\Scripts\LevelOne\PlayerController.cs" />
     <Compile Include="Assets\QuickSave\Core\Storage\FileAccess.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\Scripts\LevelThree\LockCoreController.cs" />
     <Compile Include="Assets\Scripts\LevelTwo\AudioController.cs" />
     <Compile Include="Assets\QuickSave\Example\ExampleSceneManagerController.cs" />
     <Compile Include="Assets\Scripts\LevelOne\BulletController.cs" />
@@ -99,9 +102,7 @@
     <Compile Include="Assets\Scripts\LevelTwo\CuiDengController.cs" />
     <Compile Include="Assets\Scripts\LevelTwo\TextController.cs" />
     <Compile Include="Assets\QuickSave\CompressionMode.cs" />
-    <Compile Include="Assets\Scripts\LevelThree\PickLockController.cs" />
-    <Compile Include="Assets\Scripts\LevelThree\LockCoreController.cs" />
-    <Compile Include="Assets\Scripts\LevelThree\CodeController.cs" />
+    <Compile Include="Assets\Scripts\LevelThree\gyrocope.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\QuickSave\Plugins\jillejr.newtonsoft.json-for-unity@12.0.301\Plugins\Newtonsoft.Json Portable\Newtonsoft.Json.xml" />

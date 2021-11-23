@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿nusing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Fungus;
@@ -7,7 +7,8 @@ public class PhoneController : MonoBehaviour
 {
     public GameObject FaSong;
     public  int RingingCount =0 ;
-    public GameObject LaiDian;
+    public GameObject LaiDian1;
+    public GameObject LaiDian2;
     public AudioSource As;
 
 
@@ -21,7 +22,15 @@ public class PhoneController : MonoBehaviour
         if (invokeTime - currentTime > 0)
         {
             FaSong.GetComponent<BulletGenerator>().isRinging=true;
-            LaiDian.transform.localScale = new Vector3(1.5f,1.5f,1);
+            if (RingingCount < 3)
+            {
+                LaiDian1.transform.localScale = new Vector3(1.5f, 1.5f, 1);
+            }
+            else
+            {
+                LaiDian1.transform.localScale = new Vector3(1.5f, 1.5f, 1);
+            }
+
             if ( !As.isPlaying)
             {
                 As.Play();
@@ -43,6 +52,7 @@ public class PhoneController : MonoBehaviour
         if (invokeTime - currentTime > 0)
         { 
             FaSong.GetComponent<BulletGenerator>().isRinging = false;
+
             LaiDian.transform.localScale = new Vector3(1.5f, 0, 1);
             invokeTime = 0;
             RingingCount++;

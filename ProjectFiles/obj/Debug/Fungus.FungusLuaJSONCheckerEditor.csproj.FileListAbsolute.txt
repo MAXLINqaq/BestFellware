@@ -1,0 +1,2 @@
+E:\test\test\obj\Debug\Fungus.FungusLuaJSONCheckerEditor.csproj.AssemblyReference.cache
+E:\test\test\obj\Debug\Fungus.FungusLuaJSONCheckerEditor.csproj.CoreCompileInputs.cache

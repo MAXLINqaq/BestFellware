@@ -18,22 +18,22 @@ public class MorsecodeController : MonoBehaviour
     public AudioSource Pulse;
     private bool isDown = false;
     public GameObject Up;
-    public  int missCount;
+    public int missCount;
     public GameObject Blood;
 
-    public  int i;
+    public int i;
     private float SinvokeTime;
     private string CountDown;
     private int storyCount = 0;
-    private bool isExcute = false ;
-    private bool isCoding = false ;
+    private bool isExcute = false;
+    private bool isCoding = false;
 
-    private string BlockStr ;
+    private string BlockStr;
     private string D = "D";
 
 
-    private float colorG=1;
-    private float  colorB=1;
+    private float colorG = 1;
+    private float colorB = 1;
     private int flag;
 
     public Text Sentence1Text;
@@ -85,7 +85,7 @@ public class MorsecodeController : MonoBehaviour
         if (missCount != 2)
         {
             GameplayController();
-        }  
+        }
         //ReplyController();
     }
     public void IsDown()
@@ -98,7 +98,7 @@ public class MorsecodeController : MonoBehaviour
     }
     public void SetisCoding()
     {
-        isCoding = true ;
+        isCoding = true;
     }
 
     public void SetMissCount()
@@ -110,7 +110,7 @@ public class MorsecodeController : MonoBehaviour
     {
         if (invokeTime >= SetTime)
         {
-            AnswerStr = AnswerStr.Insert(AnswerStr.Length , "1");
+            AnswerStr = AnswerStr.Insert(AnswerStr.Length, "1");
             MorseStr = MorseStr.Insert(MorseStr.Length, "-");
             invokeTime = 0;
         }
@@ -134,12 +134,12 @@ public class MorsecodeController : MonoBehaviour
     }
     private void GameplayController()
     {
-        bool  colorFlag = true ;
+        bool colorFlag = true;
         if (isCoding)
         {
             SinvokeTime += Time.deltaTime;
             if (SinvokeTime > sentences[i].time)
-            {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+            {
                 missCount++;
                 SinvokeTime = 0;
             }
@@ -165,14 +165,14 @@ public class MorsecodeController : MonoBehaviour
                     TimeText2.text = Convert.ToString(CountDown[1]);
                     TimeText3.text = "0 ";
                     TimeText4.text = "0";
-                    if (TimeText2.text == ".") 
+                    if (TimeText2.text == ".")
                     {
                         TimeText2.text = TimeText1.text;
                         TimeText1.text = "0";
                     }
                 }
             }
-            else 
+            else
             {
                 CountDown = Convert.ToString(sentences[i].time - SinvokeTime);
                 TimeText1.text = Convert.ToString(CountDown[0]);
@@ -198,31 +198,31 @@ public class MorsecodeController : MonoBehaviour
                     colorFlag = false;
 
                 }
-                
+
                 if (i == 1)
                 {
                     MorseComeText.text = ".---...--..-..";
                     if (AnswerStr.Length < 4)
                     {
                         Sentence1Text.text = "";
-                        TargetText.text="";
+                        TargetText.text = "";
                     }
                     else if (AnswerStr.Length < 7)
                     {
-                        Sentence1Text.text = sentences[i].words .Substring(0,1);
+                        Sentence1Text.text = sentences[i].words.Substring(0, 1);
                         TargetText.text = sentences[i].target.Substring(0, 1);
                     }
-                    else if (AnswerStr.Length <11)
+                    else if (AnswerStr.Length < 11)
                     {
                         Sentence1Text.text = sentences[i].words.Substring(0, 2);
                         TargetText.text = sentences[i].target.Substring(0, 2);
                     }
-                    else  if (AnswerStr.Length <13)
+                    else if (AnswerStr.Length < 13)
                     {
                         Sentence1Text.text = sentences[i].words.Substring(0, 3);
                         TargetText.text = sentences[i].target.Substring(0, 3);
                     }
-                    else  
+                    else
                     {
                         Sentence1Text.text = sentences[i].words;
                         TargetText.text = sentences[i].target;
@@ -242,17 +242,17 @@ public class MorsecodeController : MonoBehaviour
                         Sentence1Text.text = sentences[i].words.Substring(0, 1);
                         TargetText.text = sentences[i].target.Substring(0, 1);
                     }
-                    else if (AnswerStr.Length <12)
+                    else if (AnswerStr.Length < 12)
                     {
                         Sentence1Text.text = sentences[i].words.Substring(0, 2);
                         TargetText.text = sentences[i].target.Substring(0, 2);
                     }
-                    else  if (AnswerStr.Length < 14)
+                    else if (AnswerStr.Length < 14)
                     {
                         Sentence1Text.text = sentences[i].words.Substring(0, 3);
                         TargetText.text = sentences[i].target.Substring(0, 3);
                     }
-                    else 
+                    else
                     {
                         Sentence1Text.text = sentences[i].words;
                         TargetText.text = sentences[i].target;
@@ -261,7 +261,7 @@ public class MorsecodeController : MonoBehaviour
                 if (i == 12)
                 {
                     MorseComeText.text = "-.--.--.-.-.--..-.--";
-                    MorseComeText.fontSize = 40;
+                    MorseComeText.fontSize = 45;
                     if (AnswerStr.Length < 4)
                     {
                         Sentence1Text.text = "";
@@ -272,22 +272,22 @@ public class MorsecodeController : MonoBehaviour
                         Sentence1Text.text = sentences[i].words.Substring(0, 1);
                         TargetText.text = sentences[i].target.Substring(0, 1);
                     }
-                    else if (AnswerStr.Length <12)
+                    else if (AnswerStr.Length < 12)
                     {
                         Sentence1Text.text = sentences[i].words.Substring(0, 2);
                         TargetText.text = sentences[i].target.Substring(0, 2);
                     }
-                    else  if (AnswerStr.Length <14)
+                    else if (AnswerStr.Length < 14)
                     {
                         Sentence1Text.text = sentences[i].words.Substring(0, 3);
                         TargetText.text = sentences[i].target.Substring(0, 3);
                     }
-                    else  if (AnswerStr.Length <16)
+                    else if (AnswerStr.Length < 16)
                     {
                         Sentence1Text.text = sentences[i].words.Substring(0, 4);
                         TargetText.text = sentences[i].target.Substring(0, 4);
                     }
-                    else  
+                    else
                     {
                         Sentence1Text.text = sentences[i].words;
                         TargetText.text = sentences[i].target;
@@ -302,6 +302,14 @@ public class MorsecodeController : MonoBehaviour
                 TargetText.color = Color.red;
                 MissionText.text = "发送消息：";
             }
+            if (sentences[i].Morse.Length > 16)
+                {
+                    MorseText.fontSize = 50;
+                }
+                else
+                {
+                    MorseText.fontSize = 60;
+                }
 
             if (AnswerStr.Length >= sentences[i].Morse.Length)
             {
@@ -316,7 +324,7 @@ public class MorsecodeController : MonoBehaviour
                 if (AnswerStr == sentences[i].Morse)
                 {
                     MorseComeText.text = "";
-                    
+
                     missCount = 0;
                     i++;
                     SinvokeTime = 0;
@@ -330,7 +338,7 @@ public class MorsecodeController : MonoBehaviour
                     else
                     {
                         isCoding = true;
-                        isExcute = false ;
+                        isExcute = false;
                     }
                     missCount = 0;
                     MissionText.text = "";
@@ -343,7 +351,7 @@ public class MorsecodeController : MonoBehaviour
                     MorseStr = "";
                 }
                 colorFlag = true;
-            }  
+            }
         }
         if (!isCoding)
         {
@@ -362,7 +370,7 @@ public class MorsecodeController : MonoBehaviour
             flowchart.ExecuteBlock("D16");
         }
     }
-    
+
     private void StoryController()
     {
         if (!isExcute)
@@ -383,7 +391,7 @@ public class MorsecodeController : MonoBehaviour
         if (MorseStr.Length != 0)
         {
             MorseStr = MorseStr.Substring(0, MorseStr.Length - 1);
-        }     
+        }
     }
     private void Miss()
     {
@@ -394,7 +402,7 @@ public class MorsecodeController : MonoBehaviour
             Blood.transform.localScale = new Vector3(1.9f, 0, 1f);
         }
 
-        if (missCount == 1 && !Pulse .isPlaying)
+        if (missCount == 1 && !Pulse.isPlaying)
         {
             Pulse.Play();
             Blood.transform.localScale = new Vector3(1.9f, 2f, 1f);
@@ -429,7 +437,7 @@ public class MorsecodeController : MonoBehaviour
             Pulse.Stop();
             Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
             flowchart.ExecuteBlock("Fail");
-            
+
             if (storyCount < 4)
             {
                 storyCount = 0;
@@ -442,13 +450,13 @@ public class MorsecodeController : MonoBehaviour
             {
                 storyCount = 7;
             }
-            else if (storyCount < 12)
+            else if (storyCount < 14)
             {
                 storyCount = 10;
             }
             else
             {
-                storyCount = 13;
+                storyCount = 14;
             }
         }
     }

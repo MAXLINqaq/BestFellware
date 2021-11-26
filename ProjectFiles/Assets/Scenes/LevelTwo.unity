@@ -2058,8 +2058,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 652257565}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -4949,7 +4948,7 @@ MonoBehaviour:
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: d1ab3bf267736b849b84037126d39f8f, type: 3}
   volume: 1
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &652257551
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5013,13 +5012,13 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &652257554
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5033,7 +5032,7 @@ MonoBehaviour:
   indentLevel: 0
   soundClip: {fileID: 8300000, guid: cdfcebf0d216a7c49815ceb4283ea12d, type: 3}
   volume: 1
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &652257555
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5057,9 +5056,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &652257556
 MonoBehaviour:
@@ -5084,9 +5083,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &652257557
 MonoBehaviour:
@@ -5111,9 +5110,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &652257558
 MonoBehaviour:
@@ -5138,9 +5137,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &652257559
 MonoBehaviour:
@@ -5156,7 +5155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 274.58035
+    x: 273.1518
     y: 141.63945
     width: 72.85713
     height: 40
@@ -5199,9 +5198,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &652257564
 MonoBehaviour:
@@ -5226,9 +5225,9 @@ MonoBehaviour:
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
-  waitForClick: 1
+  waitForClick: 0
   stopVoiceover: 1
-  waitForVO: 0
+  waitForVO: 1
   setSayDialog: {fileID: 0}
 --- !u!114 &652257565
 MonoBehaviour:

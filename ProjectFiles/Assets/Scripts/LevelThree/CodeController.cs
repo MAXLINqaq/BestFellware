@@ -16,8 +16,8 @@ public class CodeController : MonoBehaviour
 
     public  int i;
     public  int j;
-    public int promptCount;//¼ÇÂ¼ÌáÊ¾
-    private bool gotPd;//ÒÑ¾­»ñµÃÃÜÂë
+    public int promptCount;//ï¿½ï¿½Â¼ï¿½ï¿½Ê¾
+    private bool gotPd;//ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 
     // Start is called before the first frame update
@@ -65,13 +65,13 @@ public class CodeController : MonoBehaviour
             i = 0;
             j++;
         }
-        if (promptCount == 4)
+        if (promptCount == 3)
         {
             Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
             flowchart.ExecuteBlock("Game2");
             promptCount++;
         }
-        if (j == 3)
+        if (j == 4)
         {
             Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
             flowchart.ExecuteBlock("D3");

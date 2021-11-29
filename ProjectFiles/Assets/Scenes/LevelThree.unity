@@ -1730,6 +1730,7 @@ GameObject:
   - component: {fileID: 583605630}
   - component: {fileID: 583605569}
   - component: {fileID: 583605515}
+  - component: {fileID: 583605633}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1865,7 +1866,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 583605501}
+  - {fileID: 583605599}
   selectedCommands: []
   variables: []
   description: 
@@ -6033,8 +6034,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -200.57397
-    y: 385.33405
+    x: -204.8597
+    y: 386.7626
     width: 77.428566
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6395,8 +6396,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 38.872227
-    y: 346.68146
+    x: -63.984898
+    y: 338.11014
     width: 66
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6404,7 +6405,7 @@ MonoBehaviour:
   itemId: 205
   blockName: D7
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 583605633}
   commandList:
   - {fileID: 583605604}
   - {fileID: 583605602}
@@ -7238,6 +7239,21 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &583605633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583605421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 583605599}
+  suppressBlockAutoSelect: 0
+  message: D7
 --- !u!1 &613623228
 GameObject:
   m_ObjectHideFlags: 0

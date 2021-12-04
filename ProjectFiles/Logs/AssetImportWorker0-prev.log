@@ -1,0 +1,430 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.14f1c1 (ed787cdc2846) revision 15562876'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home China; OS build 19042.1348; Version 2009; 64bit' Language: 'zh' Physical Memory: 16259 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+G:\2020.3.14f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+H:/MyUnityProject/BestFallware/ProjectFiles
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62139
+Successfully changed project path to: H:/MyUnityProject/BestFallware/ProjectFiles
+H:/MyUnityProject/BestFallware/ProjectFiles
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 82.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1c1 (ed787cdc2846)
+[Subsystems] Discovering subsystems at path G:/2020.3.14f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/MyUnityProject/BestFallware/ProjectFiles/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.9649
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'G:/2020.3.14f1c1/Editor/Data/Managed'
+Mono path[1] = 'G:/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/2020.3.14f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001148 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 94.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.195 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2195ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (553ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005161 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 89.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1669ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1390ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (497ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (499ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.5 MB.
+System memory in use after: 170.7 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4626.
+Total: 3.747700 ms (FindLiveObjects: 0.350900 ms CreateObjectMapping: 0.213800 ms MarkObjects: 3.083900 ms  DeleteObjects: 0.097300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/LevelThree.unity
+  artifactKey: Guid(1fb8570fc501c5047bbe82071b737dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelThree.unity using Guid(1fb8570fc501c5047bbe82071b737dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9e8a792038a21191765b4b9824d9e5') in 0.054589 seconds 
+  Import took 0.063936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.923320 seconds.
+  path: Assets/Scenes/LevelOne.unity
+  artifactKey: Guid(da42aa41965f272479f32506f6e0334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LevelOne.unity using Guid(da42aa41965f272479f32506f6e0334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776f691d1ad65369116742aba639a5ac') in 0.003649 seconds 
+  Import took 0.010074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.517268 seconds.
+  path: Assets/Audio/接线员
+  artifactKey: Guid(e0fb0aaccc3faeb459a042aa3ec21666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/接线员 using Guid(e0fb0aaccc3faeb459a042aa3ec21666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda545973b8e1c27db0ae1d102b8591c') in 0.002169 seconds 
+  Import took 0.030278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 352.238093 seconds.
+  path: Assets/Audio/鸿鹄
+  artifactKey: Guid(cde83f631db4d2547a3dd32e035d520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄 using Guid(cde83f631db4d2547a3dd32e035d520a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ef6e3c4b65deae1b90a1035906cc3c') in 0.002127 seconds 
+  Import took 0.008986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.810495 seconds.
+  path: Assets/Audio/鸿鹄/一起加入 只有我能救.mp3
+  artifactKey: Guid(90ce4b82cad542b4e9adc7a6bf18e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/一起加入 只有我能救.mp3 using Guid(90ce4b82cad542b4e9adc7a6bf18e4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86692885bfc7505d2b155142756ff56d') in 0.228264 seconds 
+  Import took 0.235232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.851918 seconds.
+  path: Assets/Audio/鸿鹄/保险箱干扰 惯性思维.mp3
+  artifactKey: Guid(33d96b52de1821a4b9d87cb3e1ebd5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/保险箱干扰 惯性思维.mp3 using Guid(33d96b52de1821a4b9d87cb3e1ebd5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f811ef322003aa17cb8d0f60ca8c524b') in 0.010214 seconds 
+  Import took 0.016828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/Audio/鸿鹄/保险箱干扰 惯性思维.mp3
+  artifactKey: Guid(33d96b52de1821a4b9d87cb3e1ebd5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/保险箱干扰 惯性思维.mp3 using Guid(33d96b52de1821a4b9d87cb3e1ebd5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f811ef322003aa17cb8d0f60ca8c524b') in 0.048158 seconds 
+  Import took 0.055357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.581539 seconds.
+  path: Assets/Audio/鸿鹄/信仰.mp3
+  artifactKey: Guid(826d5057eb3a7f34eb4c949591a3c0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/信仰.mp3 using Guid(826d5057eb3a7f34eb4c949591a3c0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00509adab963f4b19a8ad5c915cf4d5e') in 0.015778 seconds 
+  Import took 0.022599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.748671 seconds.
+  path: Assets/Audio/鸿鹄/共产主义万岁.mp3
+  artifactKey: Guid(08a96f96362eddc4d8e47cd973d7b0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/共产主义万岁.mp3 using Guid(08a96f96362eddc4d8e47cd973d7b0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cdd32548c45bfdbcc50acf3677a58d') in 0.009954 seconds 
+  Import took 0.015720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001717 seconds.
+  path: Assets/Audio/鸿鹄/共产主义万岁.mp3
+  artifactKey: Guid(08a96f96362eddc4d8e47cd973d7b0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/共产主义万岁.mp3 using Guid(08a96f96362eddc4d8e47cd973d7b0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cdd32548c45bfdbcc50acf3677a58d') in 0.014908 seconds 
+  Import took 0.020825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.596041 seconds.
+  path: Assets/Audio/鸿鹄/前领导 杂货店 谈什么.mp3
+  artifactKey: Guid(f096175e6ff5b9a4f9e40066f6731f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/前领导 杂货店 谈什么.mp3 using Guid(f096175e6ff5b9a4f9e40066f6731f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05f0501a8c91f3fffd0d93e3a336634') in 0.010530 seconds 
+  Import took 0.019031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Audio/鸿鹄/前领导 杂货店 谈什么.mp3
+  artifactKey: Guid(f096175e6ff5b9a4f9e40066f6731f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/前领导 杂货店 谈什么.mp3 using Guid(f096175e6ff5b9a4f9e40066f6731f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05f0501a8c91f3fffd0d93e3a336634') in 0.010263 seconds 
+  Import took 0.017957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.208762 seconds.
+  path: Assets/Audio/鸿鹄/哈哈哈哈哈哈哈哈.mp3
+  artifactKey: Guid(4e322b43148641248a9e3420512b0aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/哈哈哈哈哈哈哈哈.mp3 using Guid(4e322b43148641248a9e3420512b0aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deee98219af2ab9faea9866f9339287b') in 0.013519 seconds 
+  Import took 0.020315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003368 seconds.
+  path: Assets/Audio/鸿鹄/哈哈哈哈哈哈哈哈.mp3
+  artifactKey: Guid(4e322b43148641248a9e3420512b0aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/哈哈哈哈哈哈哈哈.mp3 using Guid(4e322b43148641248a9e3420512b0aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deee98219af2ab9faea9866f9339287b') in 0.277856 seconds 
+  Import took 0.285040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.262139 seconds.
+  path: Assets/Audio/鸿鹄/取资料 处长何心.mp3
+  artifactKey: Guid(a43369b992c0fe3459515781a48aa3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/取资料 处长何心.mp3 using Guid(a43369b992c0fe3459515781a48aa3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0206445e0d114b70467e332c9456dd') in 0.010313 seconds 
+  Import took 0.017024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001772 seconds.
+  path: Assets/Audio/鸿鹄/取资料 处长何心.mp3
+  artifactKey: Guid(a43369b992c0fe3459515781a48aa3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/取资料 处长何心.mp3 using Guid(a43369b992c0fe3459515781a48aa3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0206445e0d114b70467e332c9456dd') in 0.013909 seconds 
+  Import took 0.021062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.887264 seconds.
+  path: Assets/Audio/鸿鹄/图什么 信仰 剥削.mp3
+  artifactKey: Guid(4d126f9595837d34e9c1205d6b3cfc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/图什么 信仰 剥削.mp3 using Guid(4d126f9595837d34e9c1205d6b3cfc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e950aa246b72bdde8f3b5f275b251642') in 0.009978 seconds 
+  Import took 0.016194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001670 seconds.
+  path: Assets/Audio/鸿鹄/图什么 信仰 剥削.mp3
+  artifactKey: Guid(4d126f9595837d34e9c1205d6b3cfc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/图什么 信仰 剥削.mp3 using Guid(4d126f9595837d34e9c1205d6b3cfc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e950aa246b72bdde8f3b5f275b251642') in 0.053200 seconds 
+  Import took 0.059207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.384642 seconds.
+  path: Assets/Audio/鸿鹄/士卒 少校 是人是鬼.mp3
+  artifactKey: Guid(7530e3c0bb7458743a89dc6e07b02530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/士卒 少校 是人是鬼.mp3 using Guid(7530e3c0bb7458743a89dc6e07b02530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a904cf9752f522b6c9e924aed76d8ef3') in 0.012597 seconds 
+  Import took 0.019721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002544 seconds.
+  path: Assets/Audio/鸿鹄/士卒 少校 是人是鬼.mp3
+  artifactKey: Guid(7530e3c0bb7458743a89dc6e07b02530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/士卒 少校 是人是鬼.mp3 using Guid(7530e3c0bb7458743a89dc6e07b02530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a904cf9752f522b6c9e924aed76d8ef3') in 0.011519 seconds 
+  Import took 0.018543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.421907 seconds.
+  path: Assets/Audio/鸿鹄/处长干这个是为了.mp3
+  artifactKey: Guid(3b16f028f8670c34495277fb5ce82f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/处长干这个是为了.mp3 using Guid(3b16f028f8670c34495277fb5ce82f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4aa03f6e9ae71e0e7bcd77c6277c8e') in 0.010612 seconds 
+  Import took 0.016726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.717521 seconds.
+  path: Assets/Audio/鸿鹄/客气了 亲自汇报 不劳烦.mp3
+  artifactKey: Guid(0fba883549c656c409564b93635ad72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/客气了 亲自汇报 不劳烦.mp3 using Guid(0fba883549c656c409564b93635ad72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695a868a9531828a0c4bcb90091c8bf2') in 0.079962 seconds 
+  Import took 0.086249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.384862 seconds.
+  path: Assets/Audio/鸿鹄/弃暗投明.mp3
+  artifactKey: Guid(e7bd3c3f3fbb17d48a74b5d66f036d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/弃暗投明.mp3 using Guid(e7bd3c3f3fbb17d48a74b5d66f036d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b71c350c82a0f4739023847c8e7779a') in 0.009336 seconds 
+  Import took 0.054153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944836 seconds.
+  path: Assets/Audio/鸿鹄/很好 一切顺利.mp3
+  artifactKey: Guid(9cc140408f8e0264495df0175c7702f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/很好 一切顺利.mp3 using Guid(9cc140408f8e0264495df0175c7702f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6043da13a765b642a4ac3340e408cbaf') in 0.043146 seconds 
+  Import took 0.048881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.664532 seconds.
+  path: Assets/Audio/鸿鹄/忍不了 乱枪打死 三年 .mp3
+  artifactKey: Guid(2647ba71f2a1b8f40a53e5ac26098a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/忍不了 乱枪打死 三年 .mp3 using Guid(2647ba71f2a1b8f40a53e5ac26098a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb97b3c30ab3f74bd7f7d2442560fc62') in 0.021000 seconds 
+  Import took 0.028168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.836499 seconds.
+  path: Assets/Audio/鸿鹄/或许可以安心了.mp3
+  artifactKey: Guid(e6b41f9e2107fc841967a2cda08e693d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/或许可以安心了.mp3 using Guid(e6b41f9e2107fc841967a2cda08e693d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb4e188ec3df7ab5384ab39a44d9ccc') in 0.031487 seconds 
+  Import took 0.048314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.091691 seconds.
+  path: Assets/Audio/鸿鹄/您想让我做什么？.mp3
+  artifactKey: Guid(0cfef79bf02b5cf4bb0859ac596f7fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/您想让我做什么？.mp3 using Guid(0cfef79bf02b5cf4bb0859ac596f7fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469a5105d4e482d16ca147d549812771') in 0.010641 seconds 
+  Import took 0.016970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000851 seconds.
+  path: Assets/Audio/鸿鹄/您想让我做什么？.mp3
+  artifactKey: Guid(0cfef79bf02b5cf4bb0859ac596f7fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/您想让我做什么？.mp3 using Guid(0cfef79bf02b5cf4bb0859ac596f7fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469a5105d4e482d16ca147d549812771') in 0.280222 seconds 
+  Import took 0.287745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.954876 seconds.
+  path: Assets/Audio/鸿鹄/感到荣幸 大驾光临.mp3
+  artifactKey: Guid(8bd48bf6a583aa641bddd7179ccc4fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/感到荣幸 大驾光临.mp3 using Guid(8bd48bf6a583aa641bddd7179ccc4fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61b8c98d5141aabdb0e9a5c5326f642') in 0.010025 seconds 
+  Import took 0.016625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000908 seconds.
+  path: Assets/Audio/鸿鹄/感到荣幸 大驾光临.mp3
+  artifactKey: Guid(8bd48bf6a583aa641bddd7179ccc4fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/感到荣幸 大驾光临.mp3 using Guid(8bd48bf6a583aa641bddd7179ccc4fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61b8c98d5141aabdb0e9a5c5326f642') in 0.016680 seconds 
+  Import took 0.023879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.594843 seconds.
+  path: Assets/Audio/鸿鹄/搞定.mp3
+  artifactKey: Guid(5e058f0f407fcfd42b332b53df7fcbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/搞定.mp3 using Guid(5e058f0f407fcfd42b332b53df7fcbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235278d821d52bb5f9c78480193db536') in 0.010163 seconds 
+  Import took 0.017867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/Audio/鸿鹄/搞定.mp3
+  artifactKey: Guid(5e058f0f407fcfd42b332b53df7fcbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/搞定.mp3 using Guid(5e058f0f407fcfd42b332b53df7fcbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235278d821d52bb5f9c78480193db536') in 0.274620 seconds 
+  Import took 0.281812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.074670 seconds.
+  path: Assets/Audio/鸿鹄/救亡图存 尽力.mp3
+  artifactKey: Guid(fb51519622f360a439e000bc0569d611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/救亡图存 尽力.mp3 using Guid(fb51519622f360a439e000bc0569d611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a4f05df525658aa1986f9c31aa2614') in 0.009570 seconds 
+  Import took 0.017165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000984 seconds.
+  path: Assets/Audio/鸿鹄/救亡图存 尽力.mp3
+  artifactKey: Guid(fb51519622f360a439e000bc0569d611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/救亡图存 尽力.mp3 using Guid(fb51519622f360a439e000bc0569d611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a4f05df525658aa1986f9c31aa2614') in 0.009007 seconds 
+  Import took 0.015441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.320978 seconds.
+  path: Assets/Audio/鸿鹄/梦魇 我能做什么.mp3
+  artifactKey: Guid(e60f6ad1cbdb28a46b4e4efd9d60a965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/梦魇 我能做什么.mp3 using Guid(e60f6ad1cbdb28a46b4e4efd9d60a965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bbbcf72554cda73854bb530e08e9cf') in 0.016578 seconds 
+  Import took 0.023235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.337647 seconds.
+  path: Assets/Audio/鸿鹄/死亡 换青天.mp3
+  artifactKey: Guid(ef0cffe2e6e448046a8b0841de301657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/鸿鹄/死亡 换青天.mp3 using Guid(ef0cffe2e6e448046a8b0841de301657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139d00322d63700700d30d3b4ba465de') in 0.046025 seconds 
+  Import took 0.052090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.436606 seconds.
+  path: Assets/Scenes/otherworld.unity
+  artifactKey: Guid(58e2342e14f771d458e4d86858b1b0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/otherworld.unity using Guid(58e2342e14f771d458e4d86858b1b0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5342403da857ef7a32a0c69522846a') in 0.003265 seconds 
+  Import took 0.009502 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

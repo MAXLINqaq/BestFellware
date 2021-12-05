@@ -26,7 +26,7 @@ public class LockCoreController : MonoBehaviour
         if (!isDone)
         {
             Mag = (PosPoint.transform.position - UpperHalf.transform.position).magnitude;
-            if (Mag < 0.33)
+            if (Mag < 0.2)
             {
                 UpperHalf.GetComponent<SpriteRenderer>().color = new Vector4(1, 1, Mag * 3, 1); 
                 LatterHalf.GetComponent<SpriteRenderer>().color = new Vector4(1, 1, Mag * 3, 1); 

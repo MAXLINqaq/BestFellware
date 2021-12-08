@@ -7,6 +7,8 @@ using UnityEngine.Audio;
 public class SetupController : MonoBehaviour
 {
     public Slider slider;
+    public GameObject panel;
+    
     
 
     // Update is called once per frame
@@ -17,5 +19,13 @@ public class SetupController : MonoBehaviour
     private void AudioSlider()
     {
         AudioListener.volume=slider.value;
+    }
+    public void ClickedShow()
+    {
+        panel.SetActive(true);
+    }
+    public void ClickedHide()
+    {
+        panel.SetActive(false);
     }
 }

@@ -17,7 +17,7 @@ public class BulletController : MonoBehaviour
     void Update()
     {
         transform.position = transform.position + moveFace*new Vector3(0, Time.deltaTime * speed,0);
-        if(transform .position.y>5)
+        if(transform .position.y>6)
              Destroy(this.gameObject);
         if (PhoneController.GetComponent<PhoneController>().RingingCount==3)
             Destroy(this.gameObject);

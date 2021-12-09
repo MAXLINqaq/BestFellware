@@ -148,5 +148,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u5821\u5792\u5B50\u5F39 Variant"
       objectReference: {fileID: 0}
+    - target: {fileID: 259271052345114874, guid: 2827ed68e727b3e48812c2f40a059a26,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 259271052345114874, guid: 2827ed68e727b3e48812c2f40a059a26,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bullet
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2827ed68e727b3e48812c2f40a059a26, type: 3}

@@ -8,8 +8,8 @@ public class SetupController : MonoBehaviour
 {
     public Slider slider;
     public GameObject panel;
-    
-    
+
+
 
     // Update is called once per frame
     void Update()
@@ -18,7 +18,7 @@ public class SetupController : MonoBehaviour
     }
     private void AudioSlider()
     {
-        AudioListener.volume=slider.value;
+        AudioListener.volume = slider.value;
     }
     public void ClickedShow()
     {
@@ -28,4 +28,9 @@ public class SetupController : MonoBehaviour
     {
         panel.SetActive(false);
     }
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
 }

@@ -22,13 +22,13 @@ public class PhoneController : MonoBehaviour
         if (invokeTime - currentTime > 0)
         {
             FaSong.GetComponent<BulletGenerator>().isRinging=true;
-            if (RingingCount < 3)
+            if (RingingCount < 2)
             {
                 LaiDian1.transform.localScale = new Vector3(1.5f, 1.5f, 1);
             }
             else
             {
-                LaiDian1.transform.localScale = new Vector3(1.5f, 1.5f, 1);
+                LaiDian2.transform.localScale = new Vector3(1.5f, 1.5f, 1);
             }
 
             if ( !As.isPlaying)

@@ -11,17 +11,44 @@ public class BulletGenerator : MonoBehaviour
 
     public bool shoot = false;
     private float invokeTime;
+    private bool firstShoot;
 
-
+    private void Awake()
+    {
+        firstShoot = true;
+    }
 
     void Update()
     {
         invokeTime += Time.deltaTime;
-
-        if (invokeTime - currentTime > 0)
+        if (firstShoot)
         {
-            if (shoot == true)
+            FirstShoot();
+        }
+        Shoot();
+
+    }
+    private void FirstShoot()
+    {
+        if (shoot == true)
+        {
+
+            Instantiate(Bullet, transform.position - new Vector3(0, 0, transform.position.z), transform.rotation);
+            if (!As.isPlaying)
             {
+                As.Play();
+            }
+            shoot = false;
+            firstShoot = false;
+        }
+    }
+    private void Shoot()
+    {
+        if (shoot == true)
+        {
+            if (invokeTime - currentTime > 0)
+            {
+
                 if (isRinging == false)
                 {
                     Instantiate(Bullet, transform.position - new Vector3(0, 0, transform.position.z), transform.rotation);
@@ -33,9 +60,11 @@ public class BulletGenerator : MonoBehaviour
                 invokeTime = 0;
                 shoot = false;
             }
-            
+            else
+            {
+                shoot = false;
+            }
         }
-
     }
     public void Generate()
     {

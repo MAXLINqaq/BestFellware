@@ -12,6 +12,14 @@ public class StartMenu : MonoBehaviour
     }
     public void Load()
     {
-        SceneManager.LoadScene("LevelOne");
+        if (!PlayerPrefs.HasKey("progress"))
+        {
+            SceneManager.LoadScene("LevelOne");
+        }
+        else
+        {
+            SceneManager.LoadScene("otherworld");
+        }
+
     }
 }

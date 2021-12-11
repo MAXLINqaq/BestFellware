@@ -7779,7 +7779,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: a4d0b37053ca6584981709aec451cc2f, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -8945,7 +8945,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1030537772
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9638,7 +9638,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1030537800
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9675,7 +9675,7 @@ MonoBehaviour:
   variable: {fileID: 1030537786}
 --- !u!114 &1030537802
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12463,6 +12463,7 @@ GameObject:
   - component: {fileID: 1475078068}
   - component: {fileID: 1475078067}
   - component: {fileID: 1475078070}
+  - component: {fileID: 1475078071}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -12567,6 +12568,20 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &1475078071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475078066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 393334c420be46941b8b4bd2af180c12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startShake: 0
+  originalPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1475574002
 GameObject:
   m_ObjectHideFlags: 0
@@ -15822,7 +15837,7 @@ PrefabInstance:
     - target: {fileID: 5255527207820948269, guid: 095a697c648df7e4b97065e17370fea2,
         type: 3}
       propertyPath: currentTime.Array.data[0]
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5255527207820948269, guid: 095a697c648df7e4b97065e17370fea2,
         type: 3}
@@ -15837,7 +15852,7 @@ PrefabInstance:
     - target: {fileID: 5255527207820948271, guid: 095a697c648df7e4b97065e17370fea2,
         type: 3}
       propertyPath: m_Name
-      value: "\u5821\u5792 2"
+      value: "\u5821\u5792 3"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 095a697c648df7e4b97065e17370fea2, type: 3}
@@ -16582,7 +16597,7 @@ MonoBehaviour:
   LaiDian1: {fileID: 780557767}
   LaiDian2: {fileID: 1711516693}
   As: {fileID: 1966732890}
-  currentTime: 10
+  currentTime: 50
 --- !u!4 &1966732889
 Transform:
   m_ObjectHideFlags: 0
@@ -17009,7 +17024,7 @@ PrefabInstance:
     - target: {fileID: 5255527207820948269, guid: 095a697c648df7e4b97065e17370fea2,
         type: 3}
       propertyPath: currentTime.Array.data[0]
-      value: 17
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5255527207820948269, guid: 095a697c648df7e4b97065e17370fea2,
         type: 3}
@@ -17024,7 +17039,7 @@ PrefabInstance:
     - target: {fileID: 5255527207820948271, guid: 095a697c648df7e4b97065e17370fea2,
         type: 3}
       propertyPath: m_Name
-      value: "\u5821\u57923"
+      value: "\u5821\u57922"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 095a697c648df7e4b97065e17370fea2, type: 3}

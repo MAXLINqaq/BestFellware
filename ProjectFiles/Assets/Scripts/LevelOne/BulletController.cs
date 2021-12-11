@@ -9,17 +9,17 @@ public class BulletController : MonoBehaviour
     public int moveFace;
     void Awake()
     {
-        this.transform .parent = null;
+        this.transform.parent = null;
         PhoneController = GameObject.Find("PhoneController");
     }
 
 
     void Update()
     {
-        transform.position = transform.position + moveFace*new Vector3(0, Time.deltaTime * speed,0);
-        if(transform .position.y>6)
-             Destroy(this.gameObject);
-        if (PhoneController.GetComponent<PhoneController>().RingingCount==3)
+        transform.position = transform.position + moveFace * new Vector3(0, Time.deltaTime * speed, 0);
+        if (transform.position.y > 6)
+            Destroy(this.gameObject);
+        if (PhoneController.GetComponent<PhoneController>().RingingCount == 3)
             Destroy(this.gameObject);
     }
     private void OnCollisionEnter2D(Collision2D coll)
@@ -33,6 +33,7 @@ public class BulletController : MonoBehaviour
         {
             Destroy(this.gameObject);
             coll.gameObject.GetComponent<FortController>().hitCount++;
+            GameObject.Find("Main Camera").SendMessage("ShakeOnEnable");
         }
     }
 

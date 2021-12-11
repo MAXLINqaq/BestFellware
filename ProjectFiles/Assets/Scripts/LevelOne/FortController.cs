@@ -55,6 +55,7 @@ public class FortController : MonoBehaviour
         {
             Destroy(coll.gameObject);
             hitCount++;
+            GameObject.Find("Main Camera").SendMessage("ShakeOnEnable");
         }
     }
 }

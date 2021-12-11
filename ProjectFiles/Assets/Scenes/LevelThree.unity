@@ -1734,6 +1734,7 @@ GameObject:
   - component: {fileID: 553145526}
   - component: {fileID: 553145525}
   - component: {fileID: 553145524}
+  - component: {fileID: 553145528}
   m_Layer: 0
   m_Name: 'Main Camera '
   m_TagString: MainCamera
@@ -1838,6 +1839,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &553145528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553145523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 393334c420be46941b8b4bd2af180c12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startShake: 0
+  shake: 0
 --- !u!1 &565927103
 GameObject:
   m_ObjectHideFlags: 0
@@ -2103,6 +2118,9 @@ GameObject:
   - component: {fileID: 583605461}
   - component: {fileID: 583605460}
   - component: {fileID: 583605439}
+  - component: {fileID: 583605453}
+  - component: {fileID: 583605452}
+  - component: {fileID: 583605451}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2169,10 +2187,12 @@ MonoBehaviour:
   - {fileID: 583605428}
   - {fileID: 583605427}
   - {fileID: 583605474}
+  - {fileID: 583605453}
   - {fileID: 583605459}
   - {fileID: 583605473}
   - {fileID: 583605457}
   - {fileID: 583605472}
+  - {fileID: 583605452}
   - {fileID: 583605456}
   - {fileID: 583605471}
   - {fileID: 583605454}
@@ -2182,6 +2202,7 @@ MonoBehaviour:
   - {fileID: 583605447}
   - {fileID: 583605446}
   - {fileID: 583605479}
+  - {fileID: 583605451}
   - {fileID: 583605470}
   - {fileID: 583605478}
   - {fileID: 583605445}
@@ -2229,7 +2250,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 583605599}
+  - {fileID: 583605521}
   selectedCommands: []
   variables:
   - {fileID: 583605429}
@@ -3039,6 +3060,57 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &583605451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583605421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 262
+  indentLevel: 0
+  targetObject: {fileID: 553145523}
+  methodName: ShakeOnEnable
+  delay: 0
+--- !u!114 &583605452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583605421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 261
+  indentLevel: 0
+  targetObject: {fileID: 553145523}
+  methodName: ShakeOnEnable
+  delay: 0
+--- !u!114 &583605453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583605421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 260
+  indentLevel: 0
+  targetObject: {fileID: 553145523}
+  methodName: ShakeOnEnable
+  delay: 0
 --- !u!114 &583605454
 MonoBehaviour:
   m_ObjectHideFlags: 2

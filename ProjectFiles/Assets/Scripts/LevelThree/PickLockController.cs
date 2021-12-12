@@ -8,6 +8,7 @@ public class PickLockController : MonoBehaviour
     public int UnlockCount;
     public GameObject RotationPhone;
     public bool isEnd;
+    public bool ExecuteOver;
     // Start is called before the first frame update
     void Awake()
     {
@@ -25,11 +26,18 @@ public class PickLockController : MonoBehaviour
                 flowchart.ExecuteBlock("Game1end");
                 isEnd = true;
             }
-
-            if (RotationPhone.GetComponent<gyrocope>().a.y <-200)
-            {  
-                flowchart.ExecuteBlock("D2");
+            if (ExecuteOver)
+            {
+                if (RotationPhone.GetComponent<gyrocope>().a.y < -200)
+                {
+                    flowchart.ExecuteBlock("D2");
+                }
             }
         }
     }
+    public void isExecuteOver()
+    {
+        ExecuteOver = true;
+    }
+
 }

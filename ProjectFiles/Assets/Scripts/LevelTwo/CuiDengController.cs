@@ -10,8 +10,8 @@ public class CuiDengController : MonoBehaviour
 
 
 
-    private Light2D light12D;
-    private Light2D light22D;
+    public Light2D light12D;
+    public Light2D light22D;
 
 
 
@@ -19,7 +19,7 @@ public class CuiDengController : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     {
-        if (transform.position.y > 2)
+        if (transform.position.y > 1)
         {
             light12D = light1.GetComponent<Light2D>();
             light22D = light2.GetComponent<Light2D>();
@@ -28,4 +28,10 @@ public class CuiDengController : MonoBehaviour
 
         }
     }
+    public void TurnOffLight()
+    {
+        light12D.intensity = 0.2f;
+        light22D.intensity = 1f;
+    }
+
 }

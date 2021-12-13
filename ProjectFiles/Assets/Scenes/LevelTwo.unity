@@ -1184,13 +1184,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 7f5f6225963ab8f4ba26e36f32642b66, type: 3}
+      objectReference: {fileID: 8300000, guid: fb74fb7c393123c40bb768e61a9be798, type: 3}
     - target: {fileID: 7496776670342869167, guid: 279e785932457554aa5ea68aae3869bd,
         type: 3}
       propertyPath: PlayTime
-      value: 18
+      value: 44
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7496776670342869167, guid: 279e785932457554aa5ea68aae3869bd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 279e785932457554aa5ea68aae3869bd, type: 3}
 --- !u!4 &445381636 stripped
 Transform:
@@ -1924,7 +1925,6 @@ GameObject:
   - component: {fileID: 652257502}
   - component: {fileID: 652257501}
   - component: {fileID: 652257500}
-  - component: {fileID: 652257499}
   - component: {fileID: 652257498}
   - component: {fileID: 652257497}
   - component: {fileID: 652257496}
@@ -1998,7 +1998,6 @@ GameObject:
   - component: {fileID: 652257581}
   - component: {fileID: 652257554}
   - component: {fileID: 652257560}
-  - component: {fileID: 652257583}
   - component: {fileID: 652257585}
   - component: {fileID: 652257599}
   - component: {fileID: 652257593}
@@ -2006,6 +2005,9 @@ GameObject:
   - component: {fileID: 652257601}
   - component: {fileID: 652257561}
   - component: {fileID: 652257562}
+  - component: {fileID: 652257604}
+  - component: {fileID: 652257603}
+  - component: {fileID: 652257602}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2073,7 +2075,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 98.81854
     y: 31.164574
-    width: 60
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2100,11 +2102,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 302.5183, y: 78.439865}
+  scrollPos: {x: 521.8699, y: 161.13501}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7900002
+  zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2112,7 +2114,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 652257508}
+  - {fileID: 652257493}
   selectedCommands: []
   variables:
   - {fileID: 652257560}
@@ -2318,7 +2320,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 100.4349
     y: 86.130135
-    width: 60
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2798,7 +2800,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 187.03206
     y: 39.029575
-    width: 60
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2972,7 +2974,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 95.64515
     y: 182.12256
-    width: 60
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3170,7 +3172,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 188.18039
     y: 143.1948
-    width: 60
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3278,7 +3280,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 92.17568
     y: 234.77808
-    width: 60
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3363,7 +3365,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 192.94025
     y: 192.0026
-    width: 60
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3520,7 +3522,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 193.22697
     y: 236.80852
-    width: 60
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3697,7 +3699,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 271.9209
     y: 50.43154
-    width: 60
+    width: 73.749985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3737,8 +3739,8 @@ MonoBehaviour:
     audioSourceVal: {fileID: 445381637}
   startVolume: 1
   endVolume: 1
-  fadeDuration: 0
-  waitUntilFinished: 0
+  fadeDuration: 4
+  waitUntilFinished: 1
   audioSourceOLD: {fileID: 0}
 --- !u!114 &652257495
 MonoBehaviour:
@@ -3811,24 +3813,6 @@ MonoBehaviour:
     stringVal: otherworld
   loadingImage: {fileID: 2800000, guid: bcaf3fa54e7bf3644bc4c4ce5a362ff0, type: 3}
   sceneNameOLD: 
---- !u!114 &652257499
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652257428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 206
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 20
-  durationOLD: 0
 --- !u!114 &652257500
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4035,7 +4019,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 271.9713
     y: 98.18496
-    width: 60
+    width: 73.749985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4171,7 +4155,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 273.96045
     y: 235.85568
-    width: 60
+    width: 73.749985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4182,14 +4166,14 @@ MonoBehaviour:
   commandList:
   - {fileID: 652257581}
   - {fileID: 652257496}
+  - {fileID: 652257603}
   - {fileID: 652257495}
+  - {fileID: 652257602}
   - {fileID: 652257502}
-  - {fileID: 652257494}
   - {fileID: 652257501}
-  - {fileID: 652257500}
-  - {fileID: 652257499}
-  - {fileID: 652257583}
   - {fileID: 652257561}
+  - {fileID: 652257500}
+  - {fileID: 652257494}
   - {fileID: 652257498}
   suppressAllAutoSelections: 0
 --- !u!114 &652257514
@@ -4350,7 +4334,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 441.2571
     y: 140.23799
-    width: 60
+    width: 68.74999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5216,8 +5200,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 273.1518
-    y: 141.63945
-    width: 60
+    y: 140.14691
+    width: 73.749985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5269,7 +5253,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &652257562
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5356,9 +5340,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 274.58813
-    y: 189.3342
-    width: 60
+    x: 277.71313
+    y: 190.8967
+    width: 73.749985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5375,6 +5359,7 @@ MonoBehaviour:
   - {fileID: 652257517}
   - {fileID: 652257516}
   - {fileID: 652257515}
+  - {fileID: 652257604}
   - {fileID: 652257514}
   suppressAllAutoSelections: 0
 --- !u!114 &652257566
@@ -5527,7 +5512,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 97.72791
     y: 137.84016
-    width: 60
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5674,7 +5659,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 186.436
     y: 91.26017
-    width: 60
+    width: 66.24999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5800,22 +5785,6 @@ MonoBehaviour:
   fadeDuration: 0
   waitUntilFinished: 0
   audioSourceOLD: {fileID: 0}
---- !u!114 &652257583
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652257428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 304
-  indentLevel: 0
-  key: Time
-  variable: {fileID: 652257560}
 --- !u!114 &652257584
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5925,7 +5894,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 630.65607
     y: 196.636
-    width: 73.797455
+    width: 111.24997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6020,7 +5989,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 608.02966
     y: 90.049255
-    width: 73.797455
+    width: 112.49997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6093,9 +6062,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 273.9395
+    x: 272.447
     y: -10.412311
-    width: 60
+    width: 73.749985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6142,7 +6111,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 186.79645
     y: 282.44473
-    width: 60
+    width: 73.749985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6227,6 +6196,69 @@ MonoBehaviour:
   targetObject: {fileID: 2047089521}
   methodName: Save
   delay: 0
+--- !u!114 &652257602
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 316
+  indentLevel: 0
+  targetObject: {fileID: 1093625783}
+  methodName: ShakeOnEnable
+  delay: 0
+--- !u!114 &652257603
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 315
+  indentLevel: 0
+  control: 3
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 620623027}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
+--- !u!114 &652257604
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652257428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc30c92f7ffe3d746ac76cd528d616e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 314
+  indentLevel: 0
+  control: 1
+  _audioSource:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 620623027}
+  startVolume: 1
+  endVolume: 1
+  fadeDuration: 0
+  waitUntilFinished: 0
+  audioSourceOLD: {fileID: 0}
 --- !u!1 &652779613
 GameObject:
   m_ObjectHideFlags: 0

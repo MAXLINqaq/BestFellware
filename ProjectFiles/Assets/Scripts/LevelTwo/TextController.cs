@@ -9,7 +9,7 @@ public class TextController : MonoBehaviour
     // Start is called before the first frame update
     private float invokeTime;
 
-    public  string Str = "ÖÐ¹úÈËÃñÖ¾Ô¸¾üÍòËê£¡µÚÆßÁ¬ÓÀ´¹²»Ðà£¡";
+    public  string Str = "ä¸­å›½äººæ°‘å¿—æ„¿å†›ä¸‡å²!ç¬¬ä¸ƒè¿žæ°¸åž‚ä¸æœ½!";
     private int i=0;
     // Update is called once per frame
     private void Awake()
@@ -19,7 +19,7 @@ public class TextController : MonoBehaviour
     void Update()
     {
         invokeTime += Time.deltaTime;
-        if (invokeTime > 0.8)
+        if (invokeTime > 1.2)
         {
             i++;
             invokeTime = 0;

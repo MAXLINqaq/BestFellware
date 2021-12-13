@@ -30,6 +30,8 @@ public class CuiDengController : MonoBehaviour
     }
     public void TurnOffLight()
     {
+        light12D = light1.GetComponent<Light2D>();
+        light22D = light2.GetComponent<Light2D>();
         light12D.intensity = 0.2f;
         light22D.intensity = 1f;
     }

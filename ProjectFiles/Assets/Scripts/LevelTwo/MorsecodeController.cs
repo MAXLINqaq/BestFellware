@@ -299,17 +299,21 @@ public class MorsecodeController : MonoBehaviour
             }
             else
             {
-                TargetText.color = Color.red;
+                if (colorFlag)
+                {
+                    TargetText.color = Color.red;
+                    colorFlag = false;
+                }
                 MissionText.text = "发送消息：";
             }
             if (sentences[i].Morse.Length > 16)
-                {
-                    MorseText.fontSize = 50;
-                }
-                else
-                {
-                    MorseText.fontSize = 60;
-                }
+            {
+                MorseText.fontSize = 50;
+            }
+            else
+            {
+                MorseText.fontSize = 60;
+            }
 
             if (AnswerStr.Length >= sentences[i].Morse.Length)
             {
@@ -340,7 +344,6 @@ public class MorsecodeController : MonoBehaviour
                         isCoding = true;
                         isExcute = false;
                     }
-                    missCount = 0;
                     MissionText.text = "";
                 }
                 else
@@ -364,7 +367,7 @@ public class MorsecodeController : MonoBehaviour
             TimeText3.text = "0";
             TimeText4.text = "0";
         }
-        if (i > 17)
+        if (i >= 19)
         {
             Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
             flowchart.ExecuteBlock("D16");
@@ -375,11 +378,14 @@ public class MorsecodeController : MonoBehaviour
     {
         if (!isExcute)
         {
-            Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
-            BlockStr = D.Insert(D.Length, Convert.ToString(storyCount));
-            flowchart.ExecuteBlock(BlockStr);
-            isExcute = true;
-            storyCount++;
+            if (i < 16)
+            {
+                Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
+                BlockStr = D.Insert(D.Length, Convert.ToString(storyCount));
+                flowchart.ExecuteBlock(BlockStr);
+                isExcute = true;
+                storyCount++;
+            }
         }
     }
     public void DeleteCode()

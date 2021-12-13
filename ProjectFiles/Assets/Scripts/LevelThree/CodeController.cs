@@ -5,19 +5,19 @@ using Fungus;
 
 public class CodeController : MonoBehaviour
 {
-    public  Joystick joystick;
+    public Joystick joystick;
     public float speed;
     public int[] password;
     public AudioSource AudioA;
     public AudioSource AudioB;
     public AudioSource AudioC;
 
-    public  float angleCount;
+    public float angleCount;
 
-    public  int i;
-    public  int j;
-    public int promptCount;//��¼��ʾ
-    private bool gotPd;//�Ѿ��������
+    public int i;
+    public int j;
+    public int promptCount;
+    private bool gotPd;
 
 
     // Start is called before the first frame update
@@ -34,13 +34,13 @@ public class CodeController : MonoBehaviour
     void Update()
     {
         angleCount += joystick.Horizontal * speed * Time.deltaTime;
-        transform.Rotate(0, 0, joystick.Horizontal * speed* Time.deltaTime);
-        if (angleCount < i * 22.5 + 0.2 && angleCount >  i  * 22.5 - 0.2)
+        transform.Rotate(0, 0, joystick.Horizontal * speed * Time.deltaTime);
+        if (angleCount < i * 22.5 + 0.2 && angleCount > i * 22.5 - 0.2)
         {
             if (joystick.Horizontal > 0)
             {
                 i++;
-                if (password[j] == i-1)
+                if (password[j] == i - 1)
                 {
                     AudioB.Play();
                     gotPd = true;
@@ -58,14 +58,18 @@ public class CodeController : MonoBehaviour
                 promptCount++;
             }
         }
-        if (gotPd && joystick.Horizontal < 0 && angleCount < 0.2 && angleCount > -0.2)
+        if (gotPd  && angleCount < 0.2 && angleCount > -0.2)
         {
             AudioC.Play();
             gotPd = false;
             i = 0;
             j++;
         }
-        if (promptCount == 3)
+        if (angleCount < 0.1 && angleCount > -0.1)
+        {
+            i = 0;
+        }
+        if (promptCount == 2)
         {
             Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
             flowchart.ExecuteBlock("Game2");

@@ -10,6 +10,7 @@ public class StartMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
     public void Load()
     {
         if (!PlayerPrefs.HasKey("progress"))
@@ -18,7 +19,20 @@ public class StartMenu : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("otherworld");
+            int temp;
+            temp = PlayerPrefs.GetInt("progress");
+            if (temp == 1 || temp == 3||temp ==5)
+            {
+                SceneManager.LoadScene("otherworld");
+            }
+            else if (temp == 2)
+            {
+                SceneManager.LoadScene("LevelTwo");
+            }
+            else
+            {
+                SceneManager.LoadScene("LevelThree");
+            }
         }
 
     }

@@ -13,6 +13,7 @@ public class CodeController : MonoBehaviour
     public AudioSource AudioC;
 
     public float angleCount;
+    private float invokeTime;
 
     public int i;
     public int j;
@@ -27,12 +28,17 @@ public class CodeController : MonoBehaviour
         j = 0;
         promptCount = 0;
         gotPd = false;
-
     }
 
     // Update is called once per frame
     void Update()
     {
+        invokeTime += Time.deltaTime;
+        if (invokeTime > 30)
+        {
+            Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
+            flowchart.ExecuteBlock("Game2");
+        }
         angleCount += joystick.Horizontal * speed * Time.deltaTime;
         transform.Rotate(0, 0, joystick.Horizontal * speed * Time.deltaTime);
         if (angleCount < i * 22.5 + 0.2 && angleCount > i * 22.5 - 0.2)
@@ -58,7 +64,7 @@ public class CodeController : MonoBehaviour
                 promptCount++;
             }
         }
-        if (gotPd  && angleCount < 0.2 && angleCount > -0.2)
+        if (gotPd && angleCount < 0.2 && angleCount > -0.2)
         {
             AudioC.Play();
             gotPd = false;
@@ -73,7 +79,6 @@ public class CodeController : MonoBehaviour
         {
             Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
             flowchart.ExecuteBlock("Game2");
-            promptCount++;
         }
         if (j == 4)
         {

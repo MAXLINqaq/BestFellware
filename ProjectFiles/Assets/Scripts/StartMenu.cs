@@ -36,4 +36,8 @@ public class StartMenu : MonoBehaviour
         }
 
     }
+     public void DeleteKey() 
+    {
+        PlayerPrefs. DeleteAll();
+    }
 }

@@ -38,6 +38,7 @@ ScriptsOnlyBuild:
     - Fungus.CallMethod
     - Fungus.Character
     - Fungus.Clickable2D
+    - Fungus.CommandCopyBuffer
     - Fungus.ControlAudio
     - Fungus.CustomTag
     - Fungus.DialogInput
@@ -54,7 +55,6 @@ ScriptsOnlyBuild:
     - Fungus.If
     - Fungus.InfoText
     - Fungus.IntegerVariable
-    - Fungus.KeyPressed
     - Fungus.LoadScene
     - Fungus.LoadVariable
     - Fungus.Localization
@@ -959,8 +959,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8144}
     - Class: 114
       Script: {instanceID: 8476}
-    - Class: 114
-      Script: {instanceID: 8742}
     - Class: 114
       Script: {instanceID: 9036}
     - Class: 114

@@ -86,7 +86,7 @@ public class MorsecodeController : MonoBehaviour
         {
             GameplayController();
         }
-        //ReplyController();
+
     }
     public void IsDown()
     {

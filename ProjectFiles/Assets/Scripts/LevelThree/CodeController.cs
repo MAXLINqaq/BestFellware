@@ -19,6 +19,7 @@ public class CodeController : MonoBehaviour
     public int j;
     public int promptCount;
     private bool gotPd;
+    private bool isExcute;
 
 
     // Start is called before the first frame update
@@ -28,16 +29,18 @@ public class CodeController : MonoBehaviour
         j = 0;
         promptCount = 0;
         gotPd = false;
+        isExcute = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         invokeTime += Time.deltaTime;
-        if (invokeTime > 30)
+        if (invokeTime > 30 && !isExcute)
         {
             Flowchart flowchart = GameObject.Find("Flowchart").GetComponent<Flowchart>();
             flowchart.ExecuteBlock("Game2");
+            isExcute = true;
         }
         angleCount += joystick.Horizontal * speed * Time.deltaTime;
         transform.Rotate(0, 0, joystick.Horizontal * speed * Time.deltaTime);
